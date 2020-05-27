@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notas\bin\Debug\netcoreapp3.1\Laco_notas.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notas\bin\Debug\netcoreapp3.1\Laco_notas.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notas\bin\Debug\netcoreapp3.1\Laco_notas.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notas\bin\Debug\netcoreapp3.1\Laco_notas.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notas\bin\Debug\netcoreapp3.1\Laco_notas.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notas\bin\Debug\netcoreapp3.1\Laco_notas.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notas\obj\Debug\netcoreapp3.1\Laco_notas.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notas\obj\Debug\netcoreapp3.1\Laco_notas.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notas\obj\Debug\netcoreapp3.1\Laco_notas.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notas\obj\Debug\netcoreapp3.1\Laco_notas.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notas\obj\Debug\netcoreapp3.1\Laco_notas.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notas\obj\Debug\netcoreapp3.1\Laco_notas.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notas\obj\Debug\netcoreapp3.1\Laco_notas.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Precos_menores/1.0.0": {
+        "runtime": {
+          "Precos_menores.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Precos_menores/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

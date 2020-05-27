@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notasEscola\bin\Debug\netcoreapp3.1\Laco_notasEscola.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notasEscola\bin\Debug\netcoreapp3.1\Laco_notasEscola.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notasEscola\bin\Debug\netcoreapp3.1\Laco_notasEscola.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notasEscola\bin\Debug\netcoreapp3.1\Laco_notasEscola.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notasEscola\bin\Debug\netcoreapp3.1\Laco_notasEscola.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notasEscola\bin\Debug\netcoreapp3.1\Laco_notasEscola.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notasEscola\obj\Debug\netcoreapp3.1\Laco_notasEscola.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notasEscola\obj\Debug\netcoreapp3.1\Laco_notasEscola.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notasEscola\obj\Debug\netcoreapp3.1\Laco_notasEscola.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notasEscola\obj\Debug\netcoreapp3.1\Laco_notasEscola.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notasEscola\obj\Debug\netcoreapp3.1\Laco_notasEscola.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notasEscola\obj\Debug\netcoreapp3.1\Laco_notasEscola.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_notasEscola\obj\Debug\netcoreapp3.1\Laco_notasEscola.genruntimeconfig.cache

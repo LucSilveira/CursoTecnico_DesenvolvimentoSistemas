@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_cadastroProdutos\bin\Debug\netcoreapp3.1\Laco_cadastroProdutos.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_cadastroProdutos\bin\Debug\netcoreapp3.1\Laco_cadastroProdutos.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_cadastroProdutos\bin\Debug\netcoreapp3.1\Laco_cadastroProdutos.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_cadastroProdutos\bin\Debug\netcoreapp3.1\Laco_cadastroProdutos.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_cadastroProdutos\bin\Debug\netcoreapp3.1\Laco_cadastroProdutos.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_cadastroProdutos\bin\Debug\netcoreapp3.1\Laco_cadastroProdutos.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_cadastroProdutos\obj\Debug\netcoreapp3.1\Laco_cadastroProdutos.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_cadastroProdutos\obj\Debug\netcoreapp3.1\Laco_cadastroProdutos.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_cadastroProdutos\obj\Debug\netcoreapp3.1\Laco_cadastroProdutos.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_cadastroProdutos\obj\Debug\netcoreapp3.1\Laco_cadastroProdutos.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_cadastroProdutos\obj\Debug\netcoreapp3.1\Laco_cadastroProdutos.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_cadastroProdutos\obj\Debug\netcoreapp3.1\Laco_cadastroProdutos.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_cadastroProdutos\obj\Debug\netcoreapp3.1\Laco_cadastroProdutos.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo_imposto\obj\Debug\netcoreapp3.1\Calculo_imposto.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo_imposto\obj\Debug\netcoreapp3.1\Calculo_imposto.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo_imposto\obj\Debug\netcoreapp3.1\Calculo_imposto.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo_imposto\obj\Debug\netcoreapp3.1\Calculo_imposto.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo_imposto\bin\Debug\netcoreapp3.1\Calculo_imposto.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo_imposto\bin\Debug\netcoreapp3.1\Calculo_imposto.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo_imposto\bin\Debug\netcoreapp3.1\Calculo_imposto.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo_imposto\bin\Debug\netcoreapp3.1\Calculo_imposto.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo_imposto\bin\Debug\netcoreapp3.1\Calculo_imposto.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo_imposto\bin\Debug\netcoreapp3.1\Calculo_imposto.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo_imposto\obj\Debug\netcoreapp3.1\Calculo_imposto.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo_imposto\obj\Debug\netcoreapp3.1\Calculo_imposto.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo_imposto\obj\Debug\netcoreapp3.1\Calculo_imposto.genruntimeconfig.cache

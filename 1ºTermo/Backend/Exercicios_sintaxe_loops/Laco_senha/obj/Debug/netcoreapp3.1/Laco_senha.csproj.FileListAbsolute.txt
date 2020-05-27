@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_senha\obj\Debug\netcoreapp3.1\Laco_senha.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_senha\obj\Debug\netcoreapp3.1\Laco_senha.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_senha\obj\Debug\netcoreapp3.1\Laco_senha.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_senha\obj\Debug\netcoreapp3.1\Laco_senha.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_senha\bin\Debug\netcoreapp3.1\Laco_senha.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_senha\bin\Debug\netcoreapp3.1\Laco_senha.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_senha\bin\Debug\netcoreapp3.1\Laco_senha.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_senha\bin\Debug\netcoreapp3.1\Laco_senha.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_senha\bin\Debug\netcoreapp3.1\Laco_senha.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_senha\bin\Debug\netcoreapp3.1\Laco_senha.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_senha\obj\Debug\netcoreapp3.1\Laco_senha.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_senha\obj\Debug\netcoreapp3.1\Laco_senha.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_senha\obj\Debug\netcoreapp3.1\Laco_senha.genruntimeconfig.cache

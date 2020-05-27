@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Ajuste_salario\bin\Debug\netcoreapp3.1\Ajuste_salario.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Ajuste_salario\bin\Debug\netcoreapp3.1\Ajuste_salario.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Ajuste_salario\bin\Debug\netcoreapp3.1\Ajuste_salario.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Ajuste_salario\bin\Debug\netcoreapp3.1\Ajuste_salario.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Ajuste_salario\bin\Debug\netcoreapp3.1\Ajuste_salario.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Ajuste_salario\bin\Debug\netcoreapp3.1\Ajuste_salario.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Ajuste_salario\obj\Debug\netcoreapp3.1\Ajuste_salario.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Ajuste_salario\obj\Debug\netcoreapp3.1\Ajuste_salario.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Ajuste_salario\obj\Debug\netcoreapp3.1\Ajuste_salario.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Ajuste_salario\obj\Debug\netcoreapp3.1\Ajuste_salario.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Ajuste_salario\obj\Debug\netcoreapp3.1\Ajuste_salario.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Ajuste_salario\obj\Debug\netcoreapp3.1\Ajuste_salario.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Ajuste_salario\obj\Debug\netcoreapp3.1\Ajuste_salario.genruntimeconfig.cache

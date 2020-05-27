@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Usando_celular\obj\Debug\netcoreapp3.1\Usando_celular.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Usando_celular\obj\Debug\netcoreapp3.1\Usando_celular.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Usando_celular\obj\Debug\netcoreapp3.1\Usando_celular.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Usando_celular\obj\Debug\netcoreapp3.1\Usando_celular.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Usando_celular\bin\Debug\netcoreapp3.1\Usando_celular.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Usando_celular\bin\Debug\netcoreapp3.1\Usando_celular.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Usando_celular\bin\Debug\netcoreapp3.1\Usando_celular.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Usando_celular\bin\Debug\netcoreapp3.1\Usando_celular.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Usando_celular\bin\Debug\netcoreapp3.1\Usando_celular.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Usando_celular\bin\Debug\netcoreapp3.1\Usando_celular.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Usando_celular\obj\Debug\netcoreapp3.1\Usando_celular.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Usando_celular\obj\Debug\netcoreapp3.1\Usando_celular.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Usando_celular\obj\Debug\netcoreapp3.1\Usando_celular.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos_em_Semanas\obj\Debug\netcoreapp3.1\Anos_em_Semanas.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos_em_Semanas\obj\Debug\netcoreapp3.1\Anos_em_Semanas.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos_em_Semanas\obj\Debug\netcoreapp3.1\Anos_em_Semanas.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos_em_Semanas\obj\Debug\netcoreapp3.1\Anos_em_Semanas.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos_em_Semanas\bin\Debug\netcoreapp3.1\Anos_em_Semanas.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos_em_Semanas\bin\Debug\netcoreapp3.1\Anos_em_Semanas.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos_em_Semanas\bin\Debug\netcoreapp3.1\Anos_em_Semanas.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos_em_Semanas\bin\Debug\netcoreapp3.1\Anos_em_Semanas.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos_em_Semanas\bin\Debug\netcoreapp3.1\Anos_em_Semanas.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos_em_Semanas\bin\Debug\netcoreapp3.1\Anos_em_Semanas.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos_em_Semanas\obj\Debug\netcoreapp3.1\Anos_em_Semanas.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos_em_Semanas\obj\Debug\netcoreapp3.1\Anos_em_Semanas.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos_em_Semanas\obj\Debug\netcoreapp3.1\Anos_em_Semanas.genruntimeconfig.cache

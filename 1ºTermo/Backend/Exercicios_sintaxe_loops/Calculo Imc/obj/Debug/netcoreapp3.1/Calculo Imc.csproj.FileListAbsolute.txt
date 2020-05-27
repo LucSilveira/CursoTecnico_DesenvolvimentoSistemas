@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo Imc\obj\Debug\netcoreapp3.1\Calculo Imc.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo Imc\obj\Debug\netcoreapp3.1\Calculo Imc.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo Imc\obj\Debug\netcoreapp3.1\Calculo Imc.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo Imc\obj\Debug\netcoreapp3.1\Calculo Imc.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo Imc\bin\Debug\netcoreapp3.1\Calculo Imc.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo Imc\bin\Debug\netcoreapp3.1\Calculo Imc.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo Imc\bin\Debug\netcoreapp3.1\Calculo Imc.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo Imc\bin\Debug\netcoreapp3.1\Calculo Imc.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo Imc\bin\Debug\netcoreapp3.1\Calculo Imc.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo Imc\bin\Debug\netcoreapp3.1\Calculo Imc.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo Imc\obj\Debug\netcoreapp3.1\Calculo Imc.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo Imc\obj\Debug\netcoreapp3.1\Calculo Imc.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Calculo Imc\obj\Debug\netcoreapp3.1\Calculo Imc.genruntimeconfig.cache

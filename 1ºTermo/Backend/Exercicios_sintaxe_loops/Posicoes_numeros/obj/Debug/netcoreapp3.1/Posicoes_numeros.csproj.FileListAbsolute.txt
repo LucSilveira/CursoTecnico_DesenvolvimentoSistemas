@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Posicoes_numeros\bin\Debug\netcoreapp3.1\Posicoes_numeros.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Posicoes_numeros\bin\Debug\netcoreapp3.1\Posicoes_numeros.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Posicoes_numeros\bin\Debug\netcoreapp3.1\Posicoes_numeros.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Posicoes_numeros\bin\Debug\netcoreapp3.1\Posicoes_numeros.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Posicoes_numeros\bin\Debug\netcoreapp3.1\Posicoes_numeros.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Posicoes_numeros\bin\Debug\netcoreapp3.1\Posicoes_numeros.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Posicoes_numeros\obj\Debug\netcoreapp3.1\Posicoes_numeros.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Posicoes_numeros\obj\Debug\netcoreapp3.1\Posicoes_numeros.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Posicoes_numeros\obj\Debug\netcoreapp3.1\Posicoes_numeros.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Posicoes_numeros\obj\Debug\netcoreapp3.1\Posicoes_numeros.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Posicoes_numeros\obj\Debug\netcoreapp3.1\Posicoes_numeros.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Posicoes_numeros\obj\Debug\netcoreapp3.1\Posicoes_numeros.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Posicoes_numeros\obj\Debug\netcoreapp3.1\Posicoes_numeros.genruntimeconfig.cache

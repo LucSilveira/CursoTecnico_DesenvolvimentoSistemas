@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Sistema_escolar\Cadastro_aluno\obj\Debug\netcoreapp3.1\Cadastro_aluno.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Sistema_escolar\Cadastro_aluno\obj\Debug\netcoreapp3.1\Cadastro_aluno.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Sistema_escolar\Cadastro_aluno\obj\Debug\netcoreapp3.1\Cadastro_aluno.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Sistema_escolar\Cadastro_aluno\obj\Debug\netcoreapp3.1\Cadastro_aluno.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Sistema_escolar\Cadastro_aluno\bin\Debug\netcoreapp3.1\Cadastro_aluno.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Sistema_escolar\Cadastro_aluno\bin\Debug\netcoreapp3.1\Cadastro_aluno.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Sistema_escolar\Cadastro_aluno\bin\Debug\netcoreapp3.1\Cadastro_aluno.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Sistema_escolar\Cadastro_aluno\bin\Debug\netcoreapp3.1\Cadastro_aluno.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Sistema_escolar\Cadastro_aluno\bin\Debug\netcoreapp3.1\Cadastro_aluno.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Sistema_escolar\Cadastro_aluno\bin\Debug\netcoreapp3.1\Cadastro_aluno.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Sistema_escolar\Cadastro_aluno\obj\Debug\netcoreapp3.1\Cadastro_aluno.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Sistema_escolar\Cadastro_aluno\obj\Debug\netcoreapp3.1\Cadastro_aluno.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Sistema_escolar\Cadastro_aluno\obj\Debug\netcoreapp3.1\Cadastro_aluno.genruntimeconfig.cache

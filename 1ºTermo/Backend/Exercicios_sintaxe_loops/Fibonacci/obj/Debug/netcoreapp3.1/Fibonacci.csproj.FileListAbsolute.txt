@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Fibonacci\bin\Debug\netcoreapp3.1\Fibonacci.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Fibonacci\obj\Debug\netcoreapp3.1\Fibonacci.genruntimeconfig.cache

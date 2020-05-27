@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Classificacao_nadador\bin\Debug\netcoreapp3.1\Classificacao_nadador.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Classificacao_nadador\bin\Debug\netcoreapp3.1\Classificacao_nadador.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Classificacao_nadador\bin\Debug\netcoreapp3.1\Classificacao_nadador.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Classificacao_nadador\bin\Debug\netcoreapp3.1\Classificacao_nadador.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Classificacao_nadador\bin\Debug\netcoreapp3.1\Classificacao_nadador.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Classificacao_nadador\bin\Debug\netcoreapp3.1\Classificacao_nadador.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Classificacao_nadador\obj\Debug\netcoreapp3.1\Classificacao_nadador.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Classificacao_nadador\obj\Debug\netcoreapp3.1\Classificacao_nadador.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Classificacao_nadador\obj\Debug\netcoreapp3.1\Classificacao_nadador.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Classificacao_nadador\obj\Debug\netcoreapp3.1\Classificacao_nadador.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Classificacao_nadador\obj\Debug\netcoreapp3.1\Classificacao_nadador.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Classificacao_nadador\obj\Debug\netcoreapp3.1\Classificacao_nadador.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Classificacao_nadador\obj\Debug\netcoreapp3.1\Classificacao_nadador.genruntimeconfig.cache

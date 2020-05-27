@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Precos_menores\bin\Debug\netcoreapp3.1\Precos_menores.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Precos_menores\bin\Debug\netcoreapp3.1\Precos_menores.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Precos_menores\bin\Debug\netcoreapp3.1\Precos_menores.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Precos_menores\bin\Debug\netcoreapp3.1\Precos_menores.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Precos_menores\bin\Debug\netcoreapp3.1\Precos_menores.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Precos_menores\bin\Debug\netcoreapp3.1\Precos_menores.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Precos_menores\obj\Debug\netcoreapp3.1\Precos_menores.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Precos_menores\obj\Debug\netcoreapp3.1\Precos_menores.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Precos_menores\obj\Debug\netcoreapp3.1\Precos_menores.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Precos_menores\obj\Debug\netcoreapp3.1\Precos_menores.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Precos_menores\obj\Debug\netcoreapp3.1\Precos_menores.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Precos_menores\obj\Debug\netcoreapp3.1\Precos_menores.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Precos_menores\obj\Debug\netcoreapp3.1\Precos_menores.genruntimeconfig.cache

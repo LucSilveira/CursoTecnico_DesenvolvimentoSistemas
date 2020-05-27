@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Periodo_estudo\obj\Debug\netcoreapp3.1\Periodo_estudo.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Periodo_estudo\obj\Debug\netcoreapp3.1\Periodo_estudo.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Periodo_estudo\obj\Debug\netcoreapp3.1\Periodo_estudo.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Periodo_estudo\obj\Debug\netcoreapp3.1\Periodo_estudo.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Periodo_estudo\bin\Debug\netcoreapp3.1\Periodo_estudo.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Periodo_estudo\bin\Debug\netcoreapp3.1\Periodo_estudo.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Periodo_estudo\bin\Debug\netcoreapp3.1\Periodo_estudo.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Periodo_estudo\bin\Debug\netcoreapp3.1\Periodo_estudo.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Periodo_estudo\bin\Debug\netcoreapp3.1\Periodo_estudo.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Periodo_estudo\bin\Debug\netcoreapp3.1\Periodo_estudo.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Periodo_estudo\obj\Debug\netcoreapp3.1\Periodo_estudo.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Periodo_estudo\obj\Debug\netcoreapp3.1\Periodo_estudo.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Periodo_estudo\obj\Debug\netcoreapp3.1\Periodo_estudo.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_espacosNumeros\bin\Debug\netcoreapp3.1\Laco_espacosNumeros.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_espacosNumeros\bin\Debug\netcoreapp3.1\Laco_espacosNumeros.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_espacosNumeros\bin\Debug\netcoreapp3.1\Laco_espacosNumeros.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_espacosNumeros\bin\Debug\netcoreapp3.1\Laco_espacosNumeros.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_espacosNumeros\bin\Debug\netcoreapp3.1\Laco_espacosNumeros.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_espacosNumeros\bin\Debug\netcoreapp3.1\Laco_espacosNumeros.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_espacosNumeros\obj\Debug\netcoreapp3.1\Laco_espacosNumeros.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_espacosNumeros\obj\Debug\netcoreapp3.1\Laco_espacosNumeros.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_espacosNumeros\obj\Debug\netcoreapp3.1\Laco_espacosNumeros.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_espacosNumeros\obj\Debug\netcoreapp3.1\Laco_espacosNumeros.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_espacosNumeros\obj\Debug\netcoreapp3.1\Laco_espacosNumeros.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_espacosNumeros\obj\Debug\netcoreapp3.1\Laco_espacosNumeros.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Laco_espacosNumeros\obj\Debug\netcoreapp3.1\Laco_espacosNumeros.genruntimeconfig.cache

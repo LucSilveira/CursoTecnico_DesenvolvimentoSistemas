@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Media_Escolar\obj\Debug\netcoreapp3.1\Media_Escolar.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Media_Escolar\obj\Debug\netcoreapp3.1\Media_Escolar.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Media_Escolar\obj\Debug\netcoreapp3.1\Media_Escolar.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Media_Escolar\obj\Debug\netcoreapp3.1\Media_Escolar.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Media_Escolar\bin\Debug\netcoreapp3.1\Media_Escolar.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Media_Escolar\bin\Debug\netcoreapp3.1\Media_Escolar.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Media_Escolar\bin\Debug\netcoreapp3.1\Media_Escolar.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Media_Escolar\bin\Debug\netcoreapp3.1\Media_Escolar.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Media_Escolar\bin\Debug\netcoreapp3.1\Media_Escolar.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Media_Escolar\bin\Debug\netcoreapp3.1\Media_Escolar.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Media_Escolar\obj\Debug\netcoreapp3.1\Media_Escolar.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Media_Escolar\obj\Debug\netcoreapp3.1\Media_Escolar.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Media_Escolar\obj\Debug\netcoreapp3.1\Media_Escolar.genruntimeconfig.cache

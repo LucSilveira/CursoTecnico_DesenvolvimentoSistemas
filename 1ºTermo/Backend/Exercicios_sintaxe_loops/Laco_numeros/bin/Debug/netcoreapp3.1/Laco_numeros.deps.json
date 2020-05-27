@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Laco_numeros/1.0.0": {
+        "runtime": {
+          "Laco_numeros.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Laco_numeros/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

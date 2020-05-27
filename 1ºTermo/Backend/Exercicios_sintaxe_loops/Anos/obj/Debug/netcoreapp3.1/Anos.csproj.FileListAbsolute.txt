@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos\obj\Debug\netcoreapp3.1\Anos.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos\obj\Debug\netcoreapp3.1\Anos.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos\obj\Debug\netcoreapp3.1\Anos.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos\obj\Debug\netcoreapp3.1\Anos.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos\bin\Debug\netcoreapp3.1\Anos.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos\bin\Debug\netcoreapp3.1\Anos.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos\bin\Debug\netcoreapp3.1\Anos.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos\bin\Debug\netcoreapp3.1\Anos.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos\bin\Debug\netcoreapp3.1\Anos.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos\bin\Debug\netcoreapp3.1\Anos.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos\obj\Debug\netcoreapp3.1\Anos.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos\obj\Debug\netcoreapp3.1\Anos.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Anos\obj\Debug\netcoreapp3.1\Anos.genruntimeconfig.cache

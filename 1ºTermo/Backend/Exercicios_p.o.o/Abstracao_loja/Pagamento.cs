@@ -9,9 +9,9 @@ namespace Abstracao_loja
         public float valor { get; set; }
 
 
-        public string Pagar(){
+        public string Pagar( float valor ){
 
-            return "Pagamento efetuado";
+            return "Pagamento efetuado no valor de " + valor;
         }
 
         public string Cancelar(){

@@ -9,8 +9,8 @@ namespace Abstracao_loja
             CartaoCredito visa = new CartaoCredito();
             visa.data = DateTime.Parse(Console.ReadLine());
             visa.limite = 1200f;
-            visa.AumentarLimite(1200f, 1300f);
-            visa.Pagar();
+            visa.AumentarLimite(visa.limite, 1300f);
+            visa.Pagar(90f);
 
         }
     }

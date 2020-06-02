@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Abstracao_loja\bin\Debug\netcoreapp3.1\Abstracao_loja.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Abstracao_loja\bin\Debug\netcoreapp3.1\Abstracao_loja.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Abstracao_loja\bin\Debug\netcoreapp3.1\Abstracao_loja.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Abstracao_loja\bin\Debug\netcoreapp3.1\Abstracao_loja.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Abstracao_loja\bin\Debug\netcoreapp3.1\Abstracao_loja.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Abstracao_loja\bin\Debug\netcoreapp3.1\Abstracao_loja.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Abstracao_loja\obj\Debug\netcoreapp3.1\Abstracao_loja.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Abstracao_loja\obj\Debug\netcoreapp3.1\Abstracao_loja.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Abstracao_loja\obj\Debug\netcoreapp3.1\Abstracao_loja.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Abstracao_loja\obj\Debug\netcoreapp3.1\Abstracao_loja.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Abstracao_loja\obj\Debug\netcoreapp3.1\Abstracao_loja.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Abstracao_loja\obj\Debug\netcoreapp3.1\Abstracao_loja.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Abstracao_loja\obj\Debug\netcoreapp3.1\Abstracao_loja.genruntimeconfig.cache

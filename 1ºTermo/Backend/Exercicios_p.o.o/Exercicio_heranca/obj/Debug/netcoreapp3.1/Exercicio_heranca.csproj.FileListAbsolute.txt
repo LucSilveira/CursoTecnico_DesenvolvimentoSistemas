@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_heranca\obj\Debug\netcoreapp3.1\Exercicio_heranca.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_heranca\obj\Debug\netcoreapp3.1\Exercicio_heranca.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_heranca\obj\Debug\netcoreapp3.1\Exercicio_heranca.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_heranca\obj\Debug\netcoreapp3.1\Exercicio_heranca.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_heranca\bin\Debug\netcoreapp3.1\Exercicio_heranca.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_heranca\bin\Debug\netcoreapp3.1\Exercicio_heranca.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_heranca\bin\Debug\netcoreapp3.1\Exercicio_heranca.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_heranca\bin\Debug\netcoreapp3.1\Exercicio_heranca.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_heranca\bin\Debug\netcoreapp3.1\Exercicio_heranca.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_heranca\bin\Debug\netcoreapp3.1\Exercicio_heranca.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_heranca\obj\Debug\netcoreapp3.1\Exercicio_heranca.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_heranca\obj\Debug\netcoreapp3.1\Exercicio_heranca.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_heranca\obj\Debug\netcoreapp3.1\Exercicio_heranca.genruntimeconfig.cache

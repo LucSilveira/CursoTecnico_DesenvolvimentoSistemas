@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Calculadora_poo\obj\Debug\netcoreapp3.1\Calculadora_poo.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Calculadora_poo\obj\Debug\netcoreapp3.1\Calculadora_poo.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Calculadora_poo\obj\Debug\netcoreapp3.1\Calculadora_poo.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Calculadora_poo\obj\Debug\netcoreapp3.1\Calculadora_poo.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Calculadora_poo\bin\Debug\netcoreapp3.1\Calculadora_poo.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Calculadora_poo\bin\Debug\netcoreapp3.1\Calculadora_poo.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Calculadora_poo\bin\Debug\netcoreapp3.1\Calculadora_poo.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Calculadora_poo\bin\Debug\netcoreapp3.1\Calculadora_poo.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Calculadora_poo\bin\Debug\netcoreapp3.1\Calculadora_poo.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Calculadora_poo\bin\Debug\netcoreapp3.1\Calculadora_poo.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Calculadora_poo\obj\Debug\netcoreapp3.1\Calculadora_poo.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Calculadora_poo\obj\Debug\netcoreapp3.1\Calculadora_poo.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Calculadora_poo\obj\Debug\netcoreapp3.1\Calculadora_poo.genruntimeconfig.cache

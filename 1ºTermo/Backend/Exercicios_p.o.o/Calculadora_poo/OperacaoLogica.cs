@@ -4,28 +4,40 @@ namespace Calculadora_poo
 {
     public class OperacaoLogica : Calculadora
     {
+        //variavel para receber todos os números informados;
+        public string[] numerosInformados { get; set; }
 
-        public float[] test { get; set; }
+        //Variavel para armazenar os números informados porém já convertido em float;
+        public float[] valoresCapturados { get; set; }
 
-        public string[] numeros { get; set; }
-
+        // Variavel para armazenar o valor da media dos resultados;
         private float resultadoMedia { get; set; }
 
+        // Variavel para fazer as contagens dos loops da função e achar quantos números o usuário informou;
         protected int contador { get; set; }
 
 
+        /// <summary>
+        /// Método para capturar e converter os números informados no console, e com isso fazer a soma
+        /// desses valores e dividir pela quantidade de números informados
+        /// </summary>
+        /// <returns>Resultado da conta de média</returns>
+        public float CalculoMedia(){
 
-        public float CalculoMedia(string textoInformado){ //
-
+            valoresCapturados = new float[numerosInformados.Length];
             contador = 0;
-            numeros = textoInformado.Split(' ', ',');
 
-            for (int i = 0; i < numeros.Length ; i++)
+            for (int i = 0; i < numerosInformados.Length ; i++)
             {
-                System.Console.WriteLine("lçsdfnjvklskndjvls");
+                valoresCapturados[i] += float.Parse(numerosInformados[i].ToString());
+                resultadoMedia += valoresCapturados[i];
+
+                contador++;
             }
 
-            return 43f;
+            resultadoMedia /= contador;
+
+            return resultadoMedia;
         }
 
     }

@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_overload\obj\Debug\netcoreapp3.1\Exercicio_overload.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_overload\obj\Debug\netcoreapp3.1\Exercicio_overload.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_overload\obj\Debug\netcoreapp3.1\Exercicio_overload.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_overload\obj\Debug\netcoreapp3.1\Exercicio_overload.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_overload\bin\Debug\netcoreapp3.1\Exercicio_overload.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_overload\bin\Debug\netcoreapp3.1\Exercicio_overload.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_overload\bin\Debug\netcoreapp3.1\Exercicio_overload.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_overload\bin\Debug\netcoreapp3.1\Exercicio_overload.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_overload\bin\Debug\netcoreapp3.1\Exercicio_overload.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_overload\bin\Debug\netcoreapp3.1\Exercicio_overload.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_overload\obj\Debug\netcoreapp3.1\Exercicio_overload.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_overload\obj\Debug\netcoreapp3.1\Exercicio_overload.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Exercicio_overload\obj\Debug\netcoreapp3.1\Exercicio_overload.genruntimeconfig.cache

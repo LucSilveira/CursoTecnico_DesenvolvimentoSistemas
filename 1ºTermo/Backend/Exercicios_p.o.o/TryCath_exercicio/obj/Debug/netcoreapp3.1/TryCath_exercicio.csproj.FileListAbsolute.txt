@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\TryCath_exercicio\obj\Debug\netcoreapp3.1\TryCath_exercicio.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\TryCath_exercicio\obj\Debug\netcoreapp3.1\TryCath_exercicio.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\TryCath_exercicio\obj\Debug\netcoreapp3.1\TryCath_exercicio.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\TryCath_exercicio\obj\Debug\netcoreapp3.1\TryCath_exercicio.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\TryCath_exercicio\bin\Debug\netcoreapp3.1\TryCath_exercicio.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\TryCath_exercicio\bin\Debug\netcoreapp3.1\TryCath_exercicio.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\TryCath_exercicio\bin\Debug\netcoreapp3.1\TryCath_exercicio.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\TryCath_exercicio\bin\Debug\netcoreapp3.1\TryCath_exercicio.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\TryCath_exercicio\bin\Debug\netcoreapp3.1\TryCath_exercicio.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\TryCath_exercicio\bin\Debug\netcoreapp3.1\TryCath_exercicio.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\TryCath_exercicio\obj\Debug\netcoreapp3.1\TryCath_exercicio.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\TryCath_exercicio\obj\Debug\netcoreapp3.1\TryCath_exercicio.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\TryCath_exercicio\obj\Debug\netcoreapp3.1\TryCath_exercicio.genruntimeconfig.cache

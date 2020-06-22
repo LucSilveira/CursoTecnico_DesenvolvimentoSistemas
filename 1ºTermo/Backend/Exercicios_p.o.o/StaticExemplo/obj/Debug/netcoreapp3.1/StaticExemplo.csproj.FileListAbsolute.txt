@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\StaticExemplo\obj\Debug\netcoreapp3.1\StaticExemplo.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\StaticExemplo\obj\Debug\netcoreapp3.1\StaticExemplo.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\StaticExemplo\obj\Debug\netcoreapp3.1\StaticExemplo.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\StaticExemplo\obj\Debug\netcoreapp3.1\StaticExemplo.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\StaticExemplo\bin\Debug\netcoreapp3.1\StaticExemplo.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\StaticExemplo\bin\Debug\netcoreapp3.1\StaticExemplo.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\StaticExemplo\bin\Debug\netcoreapp3.1\StaticExemplo.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\StaticExemplo\bin\Debug\netcoreapp3.1\StaticExemplo.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\StaticExemplo\bin\Debug\netcoreapp3.1\StaticExemplo.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\StaticExemplo\bin\Debug\netcoreapp3.1\StaticExemplo.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\StaticExemplo\obj\Debug\netcoreapp3.1\StaticExemplo.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\StaticExemplo\obj\Debug\netcoreapp3.1\StaticExemplo.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\StaticExemplo\obj\Debug\netcoreapp3.1\StaticExemplo.genruntimeconfig.cache

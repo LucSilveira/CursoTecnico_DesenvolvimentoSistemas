@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Restaurante_exercicio\bin\Debug\netcoreapp3.1\Restaurante_exercicio.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Restaurante_exercicio\bin\Debug\netcoreapp3.1\Restaurante_exercicio.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Restaurante_exercicio\bin\Debug\netcoreapp3.1\Restaurante_exercicio.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Restaurante_exercicio\bin\Debug\netcoreapp3.1\Restaurante_exercicio.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Restaurante_exercicio\bin\Debug\netcoreapp3.1\Restaurante_exercicio.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Restaurante_exercicio\bin\Debug\netcoreapp3.1\Restaurante_exercicio.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Restaurante_exercicio\obj\Debug\netcoreapp3.1\Restaurante_exercicio.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Restaurante_exercicio\obj\Debug\netcoreapp3.1\Restaurante_exercicio.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Restaurante_exercicio\obj\Debug\netcoreapp3.1\Restaurante_exercicio.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Restaurante_exercicio\obj\Debug\netcoreapp3.1\Restaurante_exercicio.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Restaurante_exercicio\obj\Debug\netcoreapp3.1\Restaurante_exercicio.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Restaurante_exercicio\obj\Debug\netcoreapp3.1\Restaurante_exercicio.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Restaurante_exercicio\obj\Debug\netcoreapp3.1\Restaurante_exercicio.genruntimeconfig.cache

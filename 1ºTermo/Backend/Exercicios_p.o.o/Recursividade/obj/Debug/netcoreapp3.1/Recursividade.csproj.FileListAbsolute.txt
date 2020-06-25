@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Recursividade\obj\Debug\netcoreapp3.1\Recursividade.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Recursividade\obj\Debug\netcoreapp3.1\Recursividade.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Recursividade\obj\Debug\netcoreapp3.1\Recursividade.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Recursividade\obj\Debug\netcoreapp3.1\Recursividade.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Recursividade\bin\Debug\netcoreapp3.1\Recursividade.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Recursividade\bin\Debug\netcoreapp3.1\Recursividade.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Recursividade\bin\Debug\netcoreapp3.1\Recursividade.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Recursividade\bin\Debug\netcoreapp3.1\Recursividade.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Recursividade\bin\Debug\netcoreapp3.1\Recursividade.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Recursividade\bin\Debug\netcoreapp3.1\Recursividade.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Recursividade\obj\Debug\netcoreapp3.1\Recursividade.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Recursividade\obj\Debug\netcoreapp3.1\Recursividade.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Recursividade\obj\Debug\netcoreapp3.1\Recursividade.genruntimeconfig.cache

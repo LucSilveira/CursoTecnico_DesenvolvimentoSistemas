@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Csv_file\bin\Debug\netcoreapp3.1\Csv_file.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Csv_file\bin\Debug\netcoreapp3.1\Csv_file.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Csv_file\bin\Debug\netcoreapp3.1\Csv_file.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Csv_file\bin\Debug\netcoreapp3.1\Csv_file.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Csv_file\bin\Debug\netcoreapp3.1\Csv_file.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Csv_file\bin\Debug\netcoreapp3.1\Csv_file.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Csv_file\obj\Debug\netcoreapp3.1\Csv_file.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Csv_file\obj\Debug\netcoreapp3.1\Csv_file.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Csv_file\obj\Debug\netcoreapp3.1\Csv_file.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Csv_file\obj\Debug\netcoreapp3.1\Csv_file.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Csv_file\obj\Debug\netcoreapp3.1\Csv_file.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Csv_file\obj\Debug\netcoreapp3.1\Csv_file.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Csv_file\obj\Debug\netcoreapp3.1\Csv_file.genruntimeconfig.cache

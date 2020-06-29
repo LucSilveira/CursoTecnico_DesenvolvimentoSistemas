@@ -21,7 +21,7 @@ namespace Listas_exemplo
             produtos.Add(new Produto(2, "Xiaomi", 2200.90f));
             produtos.Add(new Produto(3, "Galaxy", 1800.90f));
             produtos.Add(new Produto(4, "Asus", 2000.90f));
-            produtos.Add(new Produto(5, "ZenFone", 2250.90f));
+            produtos.Add(new Produto(5, "Lenovo", 2250.90f));
 
 
             // Listando todos os produtos que contém na lista
@@ -36,7 +36,7 @@ namespace Listas_exemplo
 
             produtos.RemoveAt(1);
 
-            produtos.RemoveAll( x => x.Nome = "Xiaomi")
+            produtos.RemoveAll( x => x.Nome = "Xiaomi");
         }
     }
 }

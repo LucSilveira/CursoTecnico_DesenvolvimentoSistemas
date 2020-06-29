@@ -17,6 +17,10 @@ namespace Csv_file
         private const string FileName = @"C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Csv_file\DataBase\Produto.csv";
 
 
+        /// <summary>
+        /// Método para criar o diretorio juntamente ao arquivo csv
+        /// com os dados pertinentes do produto
+        /// </summary>
         public Produto(){
 
             if(!Directory.Exists(FullPath)){
@@ -31,6 +35,12 @@ namespace Csv_file
             }
         }
 
+
+        /// <summary>
+        /// Método para adicionar linhas com os dados pertinentes dos
+        /// produtos ao nosso arquivo csv
+        /// </summary>
+        /// <param name="prd"></param>
         public void Cadastrar(Produto prd){
 
             string[] linha = new string[] {
@@ -41,6 +51,12 @@ namespace Csv_file
             File.AppendAllLines(FileName, linha);
         }
 
+
+        /// <summary>
+        /// Método para definir quais dados seram inseridos no arquivo csv
+        /// </summary>
+        /// <param name="prd"></param>
+        /// <returns>Dados dos arquivos</returns>
         private string PrepararLinha(Produto prd){
 
             return  $"Codigo={prd.Codigo}; Nome={prd.Nome}; Preco={prd.Preco}";

@@ -20,6 +20,8 @@ namespace Listas_exemplo
             // Adicionando os produtos de forma mais automatica
             produtos.Add(new Produto(2, "Xiaomi", 2200.90f));
             produtos.Add(new Produto(3, "Galaxy", 1800.90f));
+            produtos.Add(new Produto(4, "Asus", 2000.90f));
+            produtos.Add(new Produto(5, "ZenFone", 2250.90f));
 
 
             // Listando todos os produtos que contém na lista
@@ -33,6 +35,8 @@ namespace Listas_exemplo
             produtos.Remove(prod);
 
             produtos.RemoveAt(1);
+
+            produtos.RemoveAll( x => x.Nome = "Xiaomi")
         }
     }
 }

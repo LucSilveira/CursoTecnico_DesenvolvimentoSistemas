@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Csv_file
 {
@@ -14,6 +15,13 @@ namespace Csv_file
             prod.Preco = 1800f;
 
             prod.Cadastrar(prod);
+
+            List<Produto> lista = prod.LerProdutos();
+
+            foreach (Produto item in lista)
+            {
+                System.Console.WriteLine($"R$ {item.Preco} - {item.Nome}");
+            }
         }
     }
 }

@@ -1,3 +1,5 @@
+using System;
+
 namespace Codin_dojo01
 {
     public class Jogador
@@ -21,7 +23,7 @@ namespace Codin_dojo01
         public int CalcularIdade()
         {
             int anoNascimento = Int32.Parse(Nascimento.ToString().Split('/', ' ')[2]);
-            int anoAtual = Int32.Parse(DateTime.Now.ToString().Split('/', ' '[2]));
+            int anoAtual = Int32.Parse(DateTime.Now.ToString().Split('/', ' ')[2]);
 
             Idade = anoAtual - anoNascimento;
 

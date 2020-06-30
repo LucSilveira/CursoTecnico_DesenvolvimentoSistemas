@@ -8,6 +8,10 @@ namespace Listas_exemplo
 
         public float Preco { get; set; }
 
+        public Produto(){
+            
+        }
+
         public Produto(int _codigo, string _nome, float _preco){
 
             this.Codigo = _codigo;

@@ -1,4 +1,6 @@
 using System.IO;
+using System;
+using System.Collections.Generic;
 
 namespace Csv_file
 {
@@ -50,6 +52,36 @@ namespace Csv_file
             File.AppendAllLines(PATH, linha);
         }
 
+
+        public List<Produto> LerProdutos()
+        {
+            // Criando uma lista para guardar os retornos
+            List<Produto> produtos = new List<Produto>();
+
+            // Criando um array para salvar as linhas do arquivo .csv
+            string[] linhas = File.ReadAllLines(PATH);
+
+            foreach (string linha in linhas)
+            {
+                string[] dado = linha.Split(';');
+
+                Produto p = new Produto();
+                p.Codigo = Int32.Parse(Separar(dado[0]));
+                p.Nome = Separar(dado[1]);
+                p.Preco = float.Parse(Separar(dado[2]));
+
+                produtos.Add(p);
+            }
+
+            return produtos;
+        }
+
+        public string Separar(string dado){
+
+            return dado.Split('=')[1];
+        }
+
+
         /// <summary>
         /// Método para definir quais dados seram inseridos no arquivo csv
         /// </summary>
@@ -58,7 +90,7 @@ namespace Csv_file
         private string PrepararLinha(Produto prd)
         {
 
-            return  $"Codigo={prd.Codigo}; Nome={prd.Nome}; Preco={prd.Preco}";
+            return  $"Codigo={prd.Codigo};Nome={prd.Nome};Preco={prd.Preco}";
         }
     }
 }

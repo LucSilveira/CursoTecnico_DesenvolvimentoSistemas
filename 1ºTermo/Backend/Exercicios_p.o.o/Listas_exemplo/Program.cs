@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Listas_exemplo
 {
@@ -36,7 +37,7 @@ namespace Listas_exemplo
 
             produtos.RemoveAt(1);
 
-            produtos.RemoveAll( x => x.Nome = "Xiaomi");
+            produtos.RemoveAll( x => x.Nome == "Xiaomi");
         }
     }
 }

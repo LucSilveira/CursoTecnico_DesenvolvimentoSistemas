@@ -1,6 +1,7 @@
 using System.IO;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Csv_file
 {
@@ -73,7 +74,41 @@ namespace Csv_file
                 produtos.Add(p);
             }
 
+            produtos = produtos.OrderBy(y => y.Nome).ToList();
+
             return produtos;
+        }
+
+        public List<Produto> BuscarProduto(string _produto)
+        {
+            return LerProdutos().FindAll(prd => prd.Nome == _produto);
+        }
+
+
+        public void RemoverLinhas(string _termos)
+        {
+            //Criando uma lista dos produtos, como forma de backup da lista
+            List<String> linhas = new List<String>();
+
+            using (StreamReader arquivo = new StreamReader(PATH))
+            {
+                string linha;
+                while ((linha = arquivo.ReadLine()) != null)
+                {
+                    linhas.Add(linha);
+                }
+
+                linhas.RemoveAll(x => x.Contains(_termos));
+            }
+
+            // Reescrevendo o arquivo sem as linhas removidas
+            using (StreamWriter output = new StreamWriter(PATH))
+            {
+                foreach(string linha in linhas)
+                {
+                    output.Write(linha + "\n");
+                }
+            }
         }
 
         public string Separar(string dado){

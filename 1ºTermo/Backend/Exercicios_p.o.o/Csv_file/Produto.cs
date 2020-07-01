@@ -79,11 +79,15 @@ namespace Csv_file
             return produtos;
         }
 
-        public List<Produto> BuscarProduto(string _produto)
+        public Produto BuscarProduto(string _produto)
         {
-            return LerProdutos().FindAll(prd => prd.Nome == _produto);
-        }
+            // return LerProdutos().FindAll(prd => prd.Nome == _produto);
+            List<Produto> lista = LerProdutos();
+            int index = lista.FindIndex(x => x.Nome == _produto);
+            Produto prd = lista[index];
 
+            return prd;
+        }
 
         public void RemoverLinhas(string _termos)
         {

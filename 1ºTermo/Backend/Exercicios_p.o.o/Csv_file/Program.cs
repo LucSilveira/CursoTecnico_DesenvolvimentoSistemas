@@ -11,11 +11,11 @@ namespace Csv_file
             Produto prod = new Produto();
 
             prod.Codigo = 001;
-            prod.Nome = "Npx";
+            prod.Nome = "Smarth watch";
             prod.Preco = 10000f;
 
             prod.Cadastrar(prod);
-            prod.RemoverLinhas("Macbook Pro");
+            prod.RemoverLinhas("Iphone 11 Max");
 
             List<Produto> lista = prod.LerProdutos();
 
@@ -24,7 +24,7 @@ namespace Csv_file
                 System.Console.WriteLine($"R$ {item.Preco} - {item.Nome}");
             }
 
-            Console.WriteLine(prod.BuscarProduto("Npx") + " lsdm ");
+            Console.WriteLine(prod.BuscarProduto("Iphone X") + " lsdm ");
         }
     }
 }

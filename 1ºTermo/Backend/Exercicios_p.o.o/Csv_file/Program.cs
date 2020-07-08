@@ -10,12 +10,19 @@ namespace Csv_file
             
             Produto prod = new Produto();
 
-            prod.Codigo = 001;
-            prod.Nome = "Smarth watch";
-            prod.Preco = 10000f;
+            prod.Codigo = 007;
+            prod.Nome = "xyaz";
+            prod.Preco = 11112f;
 
             prod.Cadastrar(prod);
-            prod.RemoverLinhas("Iphone 11 Max");
+            prod.RemoverLinhas("xyz");
+
+            Produto alterado = new Produto();
+            alterado.Codigo = 005;
+            alterado.Nome = "mno";
+            alterado.Preco = 11111f;
+
+            prod.Alterar(alterado);
 
             List<Produto> lista = prod.LerProdutos();
 
@@ -23,8 +30,6 @@ namespace Csv_file
             {
                 System.Console.WriteLine($"R$ {item.Preco} - {item.Nome}");
             }
-
-            Console.WriteLine(prod.BuscarProduto("Iphone X") + " lsdm ");
         }
     }
 }

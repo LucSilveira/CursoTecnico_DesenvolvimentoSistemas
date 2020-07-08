@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Mvc_exemplo\bin\Debug\netcoreapp3.1\Mvc_exemplo.exe
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Mvc_exemplo\bin\Debug\netcoreapp3.1\Mvc_exemplo.deps.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Mvc_exemplo\bin\Debug\netcoreapp3.1\Mvc_exemplo.runtimeconfig.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Mvc_exemplo\bin\Debug\netcoreapp3.1\Mvc_exemplo.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Mvc_exemplo\bin\Debug\netcoreapp3.1\Mvc_exemplo.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Mvc_exemplo\bin\Debug\netcoreapp3.1\Mvc_exemplo.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Mvc_exemplo\obj\Debug\netcoreapp3.1\Mvc_exemplo.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Mvc_exemplo\obj\Debug\netcoreapp3.1\Mvc_exemplo.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Mvc_exemplo\obj\Debug\netcoreapp3.1\Mvc_exemplo.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Mvc_exemplo\obj\Debug\netcoreapp3.1\Mvc_exemplo.AssemblyInfo.cs
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Mvc_exemplo\obj\Debug\netcoreapp3.1\Mvc_exemplo.dll
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Mvc_exemplo\obj\Debug\netcoreapp3.1\Mvc_exemplo.pdb
+C:\Users\lucas\Desktop\DEV-SENAI\1ºTermo\Backend\Exercicios_p.o.o\Mvc_exemplo\obj\Debug\netcoreapp3.1\Mvc_exemplo.genruntimeconfig.cache

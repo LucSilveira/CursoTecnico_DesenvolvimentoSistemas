@@ -15,6 +15,7 @@ namespace Csv_file
 
         private const string PATH = "Database/Produto.csv";
 
+
         /// <summary>
         /// Método para criar o diretorio juntamente ao arquivo csv
         /// com os dados pertinentes do produto
@@ -53,7 +54,6 @@ namespace Csv_file
             File.AppendAllLines(PATH, linha);
         }
 
-
         public List<Produto> LerProdutos()
         {
             // Criando uma lista para guardar os retornos
@@ -79,20 +79,15 @@ namespace Csv_file
             return produtos;
         }
 
-        public Produto BuscarProduto(string _produto)
+        public List<Produto> BuscarProduto(string _produto)
         {
-            // return LerProdutos().FindAll(prd => prd.Nome == _produto);
-            List<Produto> lista = LerProdutos();
-            int index = lista.FindIndex(x => x.Nome == _produto);
-            Produto prd = lista[index];
-
-            return prd;
+            return LerProdutos().FindAll(prd => prd.Nome == _produto);
         }
 
         public void RemoverLinhas(string _termos)
         {
             //Criando uma lista dos produtos, como forma de backup da lista
-            List<String> linhas = new List<String>();
+            List<string> linhas = new List<string>();
 
             using (StreamReader arquivo = new StreamReader(PATH))
             {
@@ -101,10 +96,34 @@ namespace Csv_file
                 {
                     linhas.Add(linha);
                 }
-
+            }
                 linhas.RemoveAll(x => x.Contains(_termos));
+
+                ReescreverCsv(linhas);
+        }
+
+        public void Alterar(Produto produtoAlterado)
+        {
+            List<string> linhas = new List<string>();
+
+            using(StreamReader arquivo = new StreamReader(PATH))
+            {
+                string linha;
+                while((linha = arquivo.ReadLine()) != null)
+                {
+                    linhas.Add(linha);
+                }
             }
 
+            linhas.RemoveAll(x => x.Split(';')[0].Split('=')[1] == produtoAlterado.Codigo.ToString());
+
+            linhas.Add(PrepararLinha(produtoAlterado));
+
+            ReescreverCsv(linhas);
+        }
+
+        private void ReescreverCsv(List<string> linhas)
+        {
             // Reescrevendo o arquivo sem as linhas removidas
             using (StreamWriter output = new StreamWriter(PATH))
             {

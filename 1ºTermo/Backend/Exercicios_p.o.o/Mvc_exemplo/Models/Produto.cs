@@ -15,6 +15,24 @@ namespace Mvc_exemplo.Models
 
         private const string PATH = "DataBase/Produto.csv";
 
+        public Produto()
+        {
+
+            string pasta = PATH.Split('/')[0];
+
+            if(!Directory.Exists(pasta))
+            {
+
+                Directory.CreateDirectory(pasta);
+            }
+
+            if(!File.Exists(PATH))
+            {
+
+                File.Create(PATH).Close();
+            }
+        }
+
         public List<Produto> LerProdutos()
         {
             // Criando uma lista para guardar os retornos

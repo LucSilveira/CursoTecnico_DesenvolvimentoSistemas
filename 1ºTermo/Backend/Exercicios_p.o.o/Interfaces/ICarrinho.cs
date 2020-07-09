@@ -2,12 +2,14 @@ namespace Interfaces
 {
     public interface ICarrinho
     {
-        void Ler ();
+        void MostrarProdutos();
 
-        void Incluir (Produto _produto);
+        void AdicionarProduto(Produto _produto);
 
-        void Excluir (Produto _produto);
+        void RemoverProduto(Produto _produto);
 
         void Alterar(int _codigo, Produto _produtoAlterado);
+
+        void MostrarTotal();
     }
 }

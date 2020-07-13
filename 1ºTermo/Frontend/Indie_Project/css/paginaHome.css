@@ -1,0 +1,344 @@
+/* Estilizando o conteudo principal na página */
+
+.containerPrincipal_Home .bannerPrincipal_Home{
+    background-image: url(../imgs/bannerHome.png);
+    background-repeat: no-repeat;
+    background-size: 115% 130%;
+    height: 35vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containerPrincipal_Home .bannerPrincipal_Home h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.containerPrincipal_Home .botaoDirecionamento_Home{
+    width: 38vw;
+    height: 4vh;
+    border-radius: 20px;
+    background: #3E3E3E;
+    border: 2px solid #FF9100;
+}.botaoDirecionamento_Home a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.containerPrincipal_Home  h2{
+    text-align: center;
+    color: #fff;
+    margin: 20px 0px;
+}
+
+.containerPrincipal_Home .conteudoAnuncios_Home{
+    padding: 20px;
+}
+
+.containerPrincipal_Home .cardsDesenvolvedores_Home{
+    background-color: #3E3E3E;
+}
+
+.containerPrincipal_Home .bannerJogo_Home{
+    background-image: url("../imgs/punch.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 40vh;
+}
+
+.containerPrincipal_Home .jogosDesenvolvedor_Home h4,
+.containerPrincipal_Home .jogosDados h4{
+   color: #fff;
+   text-align: center;
+   line-height: 5vh;
+}
+
+.containerPrincipal_Home .jogosDesenvolvedor_Home p{
+    line-height: 3vh;
+}
+
+.containerPrincipal_Home .jogosDesenvolvedor_Home{
+    color: #fff;
+    padding: 15px;
+}
+
+.containerPrincipal_Home .corpoAnuncio_Home .textoDescritivo_Home{
+    color: #fff;
+    padding: 0px 15px;
+    margin-bottom: 20px;
+}
+
+.containerPrincipal_Home .corpoAnuncio_Home .botaoLinkPagina_Home,
+.containerPrincipal_Home .conteudoAnuncios_Home .botaoLinkPagina_Home{
+    width: 100%;
+    line-height: 6vh;
+    background-color: #474747;
+    border: none;
+}.corpoAnuncio_Home .botaoLinkPagina_Home a,
+.conteudoAnuncios_Home .botaoLinkPagina_Home a{
+    font-size: 20px;
+}
+
+.conteudoAnuncios_Home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalhoMenu .linksNavegacao{
+    display: none;
+}
+
+.cardsDesenvolvedores_Home .jogosRecentes{
+    display: none;
+} 
+
+.containerPrincipal_Home .conteudoAnuncios_Home .verMais_Home{
+    height: 6vh;
+    background-color: #474747;  
+    border-radius: 20px;
+    width: 26vw;
+    border: 2px solid orange;
+    margin: 20px 0px;
+}.conteudoAnuncios_Home a{
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.cardsDesenvolvedores_Home .dadosJogo_Home{
+    color: #fff;
+}.cardsDesenvolvedores_Home .dadosJogo_Home p{
+    margin-bottom: 9px;
+    font-weight: bold;
+    padding: 5px 15px;
+}.cardsDesenvolvedores_Home .dadosJogo_Home p em{
+    margin-left: 15px;
+    font-weight: normal;
+}.cardsDesenvolvedores_Home .dadosJogo_Home .precoJogo{
+    display: none;
+}
+
+.sobreIndie_Home{
+    background-color: #474747;
+    text-align: center;
+    color: #fff;
+}.sobreIndie_Home h3{
+    line-height: 10vh;
+}.sobreIndie_Home p{
+    padding: 10px;
+}
+
+.conteudoDesk{
+    display: none;
+}
+
+/*******************************************************************/
+
+/* Ajustando e formatando o conteudo para padrão de tablet */
+
+@media only screen and (min-width: 768px){
+
+    .containerPrincipal_Home .bannerPrincipal_Home {
+        background-image: url(../imgs/stardew.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 50vh;
+        justify-content: space-evenly;
+    }
+
+    .containerPrincipal_Home .bannerPrincipal_Home h1{
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 24px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-shadow: 0 0 3px #000;
+    }
+
+    .containerPrincipal_Home .botaoDirecionamento_Home {
+        width: 26vw;
+        height: 5vh;
+    }
+
+    .containerPrincipal_Home .bannerJogo_Home {
+        background-image: url(../imgs/cuphead.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 40vh;
+    }
+    
+    .cardsDesenvolvedores_Home .jogosRecentes,
+    .cardsDesenvolvedores_Home .jogosRecentes .botaoLinkPaginaJogo_Home{
+        display: initial;
+    } 
+
+    .containerPrincipal_Home .cardsDesenvolvedores_Home .conteudoCard_Home{
+        display: flex;
+    }.containerPrincipal_Home .corpoAnuncio_Home{
+        width: 55vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }.containerPrincipal_Home .corpoAnuncio_Home .jogosDesenvolvedor_Home p,
+    .containerPrincipal_Home .corpoAnuncio_Home .jogosDesenvolvedor_Home h5{
+        display: none;
+    }
+    
+    .containerPrincipal_Home .jogosRecentes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 40vw;
+        height: 40vh;
+    }.containerPrincipal_Home .jogosRecentes .jogosRecentes_Home{
+        background-image: url(../imgs/punch.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+        height: 20vh;
+        width: 25vw;
+    }.containerPrincipal_Home .jogosRecentes .botaoLinkPaginaJogo_Home{
+        width: 100%;
+        line-height: 6vh;
+        border: none;
+        background-color: #363636;
+    }.containerPrincipal_Home .jogosRecentes .botaoLinkPaginaJogo_Home a{
+        font-size: 20px;
+    }.containerPrincipal_Home .jogosRecentes h4{
+        color: #fff;
+        text-transform: capitalize;
+        line-height: 6vh;
+        padding-top: 10px;
+    }
+
+    .cardsDesenvolvedores_Home .conteudoAnuncio_Home .cardJogo_Home{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+    }.cardsDesenvolvedores_Home .conteudoAnuncio_Home .cardJogo_Home .descricaoJogo_Home{
+        width: 60vw;
+    }.cardsDesenvolvedores_Home .dadosJogo_Home .precoJogo{
+        display: initial;
+        margin-left: 4em;
+        font-size: 20px;
+
+    }.cardsDesenvolvedores_Home .dadosJogo_Home .descricao{
+        display: none;
+    }
+
+    .sobreIndie_Home h3 {
+        line-height: 12vh;
+        font-size: 25px;
+    }.sobreIndie_Home p {
+        padding: 20px 10px;
+    }
+}
+
+/********************************************************************/
+
+
+@media only screen and (min-width: 1366px){
+
+    .containerPrincipal_Home .bannerPrincipal_Home {
+        background-image: url(../imgs/punch.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 65vh;
+        justify-content: space-evenly;
+    }
+
+    .containerPrincipal_Home .bannerPrincipal_Home h1 {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-shadow: 0 0 3px #000;
+    }
+
+    .containerPrincipal_Home .botaoDirecionamento_Home {
+        width: 26vw;
+        height: 7vh;
+    }.botaoDirecionamento_Home a {
+        font-size: 20px;
+    }
+
+    .containerPrincipal_Home .conteudoAnuncios_Home .verMais_Home {
+        height: 8vh;
+        margin: 40px 0px;
+    }.conteudoAnuncios_Home a {
+        font-size: 20px;
+    }
+
+    .conteudoDesk{
+        display: initial;
+        margin-left: 25px;
+    }
+
+    .cardsDesenvolvedores_Home{
+        display: flex;
+    }
+
+    .containerPrincipal_Home .cardsDesenvolvedores_Home {
+        background-color: #0000;
+    }
+
+    .cardDev, .cardJogo{
+        background-color: #3E3E3E;
+    }
+
+    .containerPrincipal_Home .bannerJogo_Home {
+        background-image: url(../imgs/bannerHome.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 35vh;
+    }
+
+    .containerPrincipal_Home .jogosRecentes {
+        width: 19vw;
+        height: 32vh;
+    }
+
+    .containerPrincipal_Home .jogosRecentes .jogosRecentes_Home {
+        background-image: url(../imgs/punch.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 15vh;
+        width: 14vw;
+    }
+
+    .containerPrincipal_Home .corpoAnuncio_Home {
+        width: 25vw;
+    }
+
+    .cardsDesenvolvedores_Home .conteudoAnuncio_Home .cardJogo_Home .descricaoJogo_Home {
+        width: 20vw;
+    }
+    .jogosDados{
+        width: 24vw;
+    }
+
+    .containerPrincipal_Home .bannerJogo_Home {
+        background-image: url(../imgs/bannerHome.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 32vh;
+    }
+
+    .sobreIndie_Home p {
+        padding: 20px 10px;
+        width: 52vw;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+
+    .sobreIndie_Home h3 {
+        line-height: 17vh;
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,100 @@
+/* Estilização do corpo da página */
+
+.containerPrincipal_Jogos h1{
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+.containerPrincipal_Jogos .cardsJogos_Jogos{
+    color: #ffffff;
+    padding: 0 12px;
+}
+
+.anuncioJogo_Jogos{
+    background-color: #343434;
+    margin-bottom: 50px;
+}
+
+.anuncioJogo_Jogos .bannerJogo_Jogos{
+    text-align: center;
+    color: white;
+}
+
+.bannerJogo_Jogos img{
+    width: 100%;
+}
+
+.anuncioJogo_Jogos .dadosJogo_Jogos{
+    margin-top: 20px;
+}
+
+.anuncioJogo_Jogos .dadosJogo_Jogos p{
+    margin-bottom: 9px;
+    padding: 11px;
+    font-weight: bold;
+}.anuncioJogo_Jogos .dadosJogo_Jogos p em{
+    margin-left: 1em;
+    font-weight: normal;
+}
+
+.anuncioJogo_Jogos .botaoJogo_Jogos{
+    background-color: #474747;
+    border: none;
+    height: 41px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}.botaoJogo_Jogos a{
+    color: #ffffff;
+}
+
+/************************************************/
+
+
+/* Ajustando o site para o formato de tablet */
+
+@media only screen and (min-width: 768px){
+
+    /* Conteudo principal da página */
+    .containerPrincipal_Jogos .cardsJogos_Jogos{
+        padding: 0 31px;
+    }
+
+    .conteudoMenu nav{
+        display: inherit;
+    }
+
+    .bannerJogo_Jogos img{
+        width: 58%;
+    }
+
+    .anuncioJogo_Jogos .dadosJogo_Jogos p {
+        margin-bottom: 0px;
+        padding: 10px 15px;
+    }
+    /*************************************************/
+}
+/***********************************************************************/
+
+/* Ajustando o site para o formato de desktop */
+
+@media only screen and (min-width: 1366px){
+
+    /* Conteudo principal da página */
+    .containerPrincipal_Jogos .cardsJogos_Jogos{
+        padding: 0 157px;
+    }
+
+    .bannerJogo_Jogos img{
+        width: 100%;
+    }
+
+    .anuncioJogo_Jogos .dadosJogo_Jogos p {
+        margin-bottom: 0px;
+        padding: 20px 15px;
+    }
+    /*************************************************/
+}
+/******************************************************************/

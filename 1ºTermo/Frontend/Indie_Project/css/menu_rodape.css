@@ -1,0 +1,177 @@
+/* Estilização do menu principal */
+
+.cabecalhoMenu .conteudoMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 96px;
+    padding: 1em;
+    font-size: 1.8em;
+}.cabecalhoMenu .conteudoMenu a{
+    color: #FF9100;
+    text-transform: capitalize;
+}
+
+.cabecalhoMenu img{
+    width: 60px;
+}
+
+.cabecalhoMenu .conteudoMenu nav{
+    display: none;
+}
+
+.cabecalhoMenu .campoPesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+
+    background-color: #3E3E3E;
+    color: #707070;
+    font-weight: bold;
+    font-size: 16px;
+}.campoPesquisa p{
+    border-bottom: 2px solid #707070;
+    width: 340px;
+    text-align: center;
+    line-height: 23px;
+}
+
+/************************************************/
+
+/* Estilização do Rodapé da página */
+
+.rodapePrincipal, .conteudoRodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #171717;
+    color: #707070;
+    text-transform: capitalize;
+}
+
+.rodapePrincipal .contatosIndie i{
+    color: #FF9100;
+    font-size: 45px;
+    margin: 0 9px;
+}
+
+.cabecalhoMenu .conteudoMenu nav{
+    display: none;
+}   
+
+.rodapePrincipal a{
+    margin: 6px 0;
+    color: #707070;
+}
+
+.rodapePrincipal h5{
+    font-size: 18px;
+    margin: 12px 0px;
+}
+
+.rodapePrincipal hr{
+    width: 100%;
+    border-color: #707070;
+    border-width: 2px;
+}
+
+.rodapePrincipal img{
+    width: 60px;
+    position: absolute;
+    right: 7px;
+    margin-top: 160px;
+}
+
+/**************************************************/
+
+
+@media only screen and (min-width: 768px){
+
+    /* Cabeçaçho principal da página */
+    .conteudoMenu .menuHamburguer{
+        display: none;
+        position: absolute;
+    }
+
+    .cabecalhoMenu .conteudoMenu{
+        justify-content: space-evenly;
+    }
+
+    .cabecalhoMenu img{
+        width: 55px;
+    }
+
+    .cabecalhoMenu .conteudoMenu nav{
+        display: initial;
+    }  
+
+    .cabecalhoMenu .linksCabecalho{
+        display: flex;
+        justify-content: space-around;
+    }.linksCabecalho li{
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+
+    .campoPesquisa a {
+        width: 450px;
+        line-height: 25px;
+    }
+    /**************************************************/
+
+}
+
+@media only screen and (min-width: 1366px){
+
+    /* Cabeçaçho principal da página */
+    .campoPesquisa p {
+        width: 576px;
+        line-height: 41px;
+        font-size: 25px;
+    }
+
+    .linksCabecalho li {
+        padding: 10px 50px;
+        font-size: 30px;
+    }
+
+    .cabecalhoMenu .campoPesquisa {
+        height: 60px;
+    }
+    /**************************************************/
+
+    /* Conteudo principal do rodapé */
+    .rodapePrincipal .contatosIndie i{
+        margin: 35px 9px;
+    }
+
+    .rodapePrincipal .conteudoRodape{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
+    }
+
+    .rodapePrincipal h5{
+        display: none;
+    }
+
+    .rodapePrincipal img{
+        position: relative;
+        margin-top: 10px;
+        width: 75px;
+    }
+
+    .rodapePrincipal a {
+        font-size: 22px;
+    }
+
+    .rodapePrincipal p{
+        font-size: 20px;
+        line-height: 6vh;    
+    }
+    /*************************************************/
+
+}

@@ -23,3 +23,6 @@ SELECT * FROM aluno WHERE RA LIKE 'R%'; /* % - significa qualquer coisa */
 
 -- Selecionando dados atráves do ORDER BY
 SELECT * FROM aluno ORDER BY Idade DESC;
+
+--Selecionando dados com parametros
+SELECT * FROM aluno WHERE IdAluno > 1 AND IdAluno < 4;

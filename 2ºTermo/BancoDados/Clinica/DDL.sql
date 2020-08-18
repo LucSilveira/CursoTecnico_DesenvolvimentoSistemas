@@ -15,10 +15,10 @@ CREATE TABLE Clinica(
 	Nome VARCHAR(30)
 );
 
--- Tabela das Especies
-CREATE TABLE Especie(
-	IdEspecie INT PRIMARY KEY IDENTITY,
-	NomeEspecie VARCHAR(50)
+-- Tabela dos Tipos de pets
+CREATE TABLE Tipo(
+	IdTipo INT PRIMARY KEY IDENTITY,
+	Descricao VARCHAR(50)
 );
 
 -- Tabela de Racas
@@ -26,8 +26,14 @@ CREATE TABLE Raca(
 	IdRaca INT PRIMARY KEY IDENTITY,
 	NomeRaca VARCHAR(50),
 
-	IdEspecie INT FOREIGN KEY REFERENCES Especie (IdEspecie)
+	IdTipoPet INT FOREIGN KEY REFERENCES Tipo (IdTipo)
 );
+
+-- Tabela de Donos
+CREATE TABLE Dono(
+	IdDono INT PRIMARY KEY IDENTITY,
+	NomeDono VARCHAR(30)
+)
 
 -- Tabela de Pets
 CREATE TABLE Pet(
@@ -35,7 +41,8 @@ CREATE TABLE Pet(
 	Nome VARCHAR(30),
 	DataNascimento DATETIME,
 
-	IdRaca INT FOREIGN KEY REFERENCES Raca (IdRaca)
+	IdRaca INT FOREIGN KEY REFERENCES Raca (IdRaca),
+	IdDono INT FOREIGN KEY REFERENCES Dono (IdDono)
 );
 
 -- Tabela de Veterinarios
@@ -50,6 +57,7 @@ CREATE TABLE Veterinario(
 CREATE TABLE Atendimento(
 	IdAtendimento INT PRIMARY KEY IDENTITY,
 	DataAtendimento DATETIME,
+	Descricao varchar(155),
 
 	IdPet INT FOREIGN KEY REFERENCES Pet (IdPet),
 	IdVeterinario INT FOREIGN KEY REFERENCES Veterinario (IdVeterinario)

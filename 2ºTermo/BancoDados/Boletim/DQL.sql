@@ -24,5 +24,10 @@ SELECT * FROM aluno WHERE RA LIKE 'R%'; /* % - significa qualquer coisa */
 -- Selecionando dados atráves do ORDER BY
 SELECT * FROM aluno ORDER BY Idade DESC;
 
---Selecionando dados com parametros
+-- Selecionando dados com parametros
 SELECT * FROM aluno WHERE IdAluno > 1 AND IdAluno < 4;
+
+-- Selecionando dados com inner joins
+SELECT aluno.Nome, materia.Titulo, trabalho.NotaTrabalho FROM trabalho
+		INNER JOIN aluno ON trabalho.IdAluno = aluno.IdAluno
+		INNER JOIN materia ON trabalho.idMateria = materia.IdMateria

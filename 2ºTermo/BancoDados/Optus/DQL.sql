@@ -5,15 +5,22 @@ USE Optus;
 
 -- Selecionando dados de todas as tabelas
 SELECT * FROM Artista;
-SELECT * FROM Estilos;
+SELECT * FROM Estilo;
 SELECT * FROM Album;
+SELECT * FROM EstilosAlbum;
+SELECT * FROM TipoUsuario;
+SELECT * FROM Usuario;
 
 -- Selecionando dados especificos em cada tabela atráves do Id (identificador)
 SELECT * FROM Artista WHERE IdArtista = 2;
-SELECT * FROM Estilos WHERE IdEstilo = 1;
+SELECT * FROM Estilo WHERE IdEstilo = 1;
 SELECT * FROM Album WHERE IdAlbum = 1;
+SELECT * FROM EstilosAlbum WHERE IdEstilosAlbum = 2;
+SELECT * FROM TipoUsuario WHERE IdTipoUsuario = 1;
+SELECT * FROM Usuario WHERE IdUsuario = 2;
 
 -- Selecionando dados com inner joins
-/*SELECT aluno.Nome, materia.Titulo, trabalho.NotaTrabalho FROM trabalho
-		INNER JOIN aluno ON trabalho.IdAluno = aluno.IdAluno
-		INNER JOIN materia ON trabalho.idMateria = materia.IdMateria*/
+SELECT Album.Nome as 'Album', Artista.Nome as 'Artista', Estilo.NomeEstilo as 'Estilo do Album' FROM EstilosAlbum
+	INNER JOIN Album ON EstilosAlbum.IdAlbum = Album.IdAlbum
+	INNER JOIN Estilo ON EstilosAlbum.IdEstilo = Estilo.IdEstilo
+	INNER JOIN Artista ON Album.IdArtista = Artista.IdArtista

@@ -4,9 +4,9 @@
 USE boletim;
 
 -- Selecionando todos os dados das tabelas
-SELECT * FROM aluno;
-SELECT * FROM materia;
-SELECT * FROM trabalho;
+SELECT * FROM Aluno;
+SELECT * FROM Materia;
+SELECT * FROM Trabalho;
 
 -- Selecionando dados especificos em cada tabela atráves do Id (identificador)
 SELECT * FROM aluno WHERE IdAluno = 2;

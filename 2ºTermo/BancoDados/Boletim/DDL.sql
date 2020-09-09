@@ -28,13 +28,9 @@ CREATE TABLE materia(
 CREATE TABLE trabalho(
 	IdTrabalho int primary key identity,
 	NotaTrabalho decimal,
+	DataEntrega DATETIME,
 
 	-- chamando as foreign keys
 	IdAluno int foreign key references aluno (IdAluno),
-	idMateria int foreign key references materia (IdMateria)
+	IdMateria int foreign key references materia (IdMateria)
 );
-
--- adicionando uma coluna em uma tabela
-ALTER TABLE trabalho Add NotaTrabalho decimal;
-
--- alter table Trabalho alter column NotaTrabalho decimal (10, 2);

@@ -8,10 +8,10 @@ namespace APIBoletim.Interfaces
 {
     interface IAluno
     {
-        List<Aluno> ListarAluno();
+        List<Aluno> ListarAlunos();
         Aluno CadastrarAluno(Aluno _aluno);
         Aluno BuscarAluno(int _idAluno);
-        Aluno AlterarAluno(Aluno _aluno);
-        Aluno ExcluirAluno(Aluno _aluno);
+        Aluno AlterarAluno(Aluno _aluno, int _idAluno);
+        Aluno ExcluirAluno(int _idAluno);
     }
 }

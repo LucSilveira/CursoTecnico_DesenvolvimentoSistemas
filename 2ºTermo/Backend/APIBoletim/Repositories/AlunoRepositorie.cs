@@ -123,7 +123,7 @@ namespace APIBoletim.Repositories
             return _aluno;
         }
 
-        public Aluno ExcluirAluno(int _idAluno)
+        public void ExcluirAluno(int _idAluno)
         {
             // Abrindo a conexão com o banco de dados
             _command.Connection = _conexao.Conectar();
@@ -131,14 +131,12 @@ namespace APIBoletim.Repositories
             _command.CommandText = "DELETE FROM aluno WHERE IdAluno = @id";
 
             _command.Parameters.AddWithValue("@id", _idAluno);
-
+             
             // Definindo que a query definida não é uma consulta usual
             _command.ExecuteNonQuery();
 
             // Fechando a conexão com o banco de dados
             _conexao.Desconectar();
-
-            return null;
         }
 
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hO3j3kDxLwjr/eZFexRIK1lmMJT9cSEIh6cLNRJ//6zRsnYwbD9tiiDiAPQlTzZlfBE++oWy4tglSFh4SX4DkQ==",
+  "dgSpecHash": "3Z4vDxmIbt2A0Dk7aG0VvhwmGUBT9b95a57zzKu3SglEqYww/gokUez83sT+Zqxneg5+MsUkJjtMb2kT/aIRBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\Desktop\\DEV-SENAI\\2ºTermo\\Backend\\APIBoletim\\APIBoletim.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\Documents\\DevSenai\\2ºTermo\\Backend\\APIBoletim\\APIBoletim.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

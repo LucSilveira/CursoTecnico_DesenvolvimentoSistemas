@@ -454,21 +454,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucas\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\lucas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\Desktop\\DEV-SENAI\\2ºTermo\\Backend\\APIBoletim\\APIBoletim.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\Documents\\DevSenai\\2ºTermo\\Backend\\APIBoletim\\APIBoletim.csproj",
       "projectName": "APIBoletim",
-      "projectPath": "C:\\Users\\lucas\\Desktop\\DEV-SENAI\\2ºTermo\\Backend\\APIBoletim\\APIBoletim.csproj",
+      "projectPath": "C:\\Users\\lucas\\Documents\\DevSenai\\2ºTermo\\Backend\\APIBoletim\\APIBoletim.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\Desktop\\DEV-SENAI\\2ºTermo\\Backend\\APIBoletim\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\Documents\\DevSenai\\2ºTermo\\Backend\\APIBoletim\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -517,7 +513,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

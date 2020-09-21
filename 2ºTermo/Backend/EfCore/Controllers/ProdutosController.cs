@@ -22,39 +22,123 @@ namespace EfCore.Controllers
             _repository = new ProdutoRepository();
         }
 
-        // GET: api/<ProdutosController>
+        /// <summary>
+        ///     Método para listar os produtos inseridos no sistema
+        /// </summary>
+        /// <returns>Todos os produtos cadastrados</returns>
         [HttpGet]
-        public List<Produto> Get()
+        public IActionResult Get()
         {
-            return _repository.ListarPodutos();
+            try
+            {
+                var _produtos = _repository.ListarPodutos();
+                
+                // Verificando se existe produtos no repository
+                if(_produtos.Count == 0)
+                {
+                    return NoContent();
+                }
+
+                return Ok(_produtos);
+            }
+            catch (Exception _e){
+
+                return BadRequest(_e.Message);
+                throw;
+            }
+
         }
 
-        // GET api/<ProdutosController>/5
+        /// <summary>
+        ///     Método para buscar os dados referente a um produto especifico
+        /// </summary>
+        /// <param name="id">O código identificador do produto</param>
+        /// <returns>Dados pertinentes ao produto pesquisado</returns>
         [HttpGet("{id}")]
-        public Produto Get(Guid id)
+        public IActionResult Get(Guid id)
         {
-            return _repository.BuscarProdutoId(id);
+            try
+            {
+                Produto _produto = _repository.BuscarProdutoId(id);
+
+                if(_produto == null)
+                {
+                    return NoContent();
+                }
+
+                return Ok(_produto);
+            }
+            catch (Exception _e){
+
+                return BadRequest(_e.Message);
+            }
         }
 
-        // POST api/<ProdutosController>
+        /// <summary>
+        ///     Método para cadastro de um novo produto
+        /// </summary>
+        /// <param name="_produto">Produto capturado através do formulário</param>
+        /// <returns>Dados referente ao produto cadastrado</returns>
         [HttpPost]
-        public Produto Post([FromBody] Produto _produto)
+        public IActionResult Post([FromBody] Produto _produto)
         {
-            return _repository.CadastrarProduto(_produto);
+            try
+            {
+                _repository.CadastrarProduto(_produto);
+
+                return Ok(_produto);
+            }
+            catch (Exception _e){
+
+                return BadRequest(_e.Message);
+            }
         }
 
         // PUT api/<ProdutosController>/5
         [HttpPut("{id}")]
-        public Produto Put(Guid id, [FromBody] Produto _produto)
+        public IActionResult Put(Guid id, [FromBody] Produto _produto)
         {
-            return _repository.AlterarProduto(_produto);
+            try
+            {
+                Produto _produtoBuscado = _repository.BuscarProdutoId(id);
+
+                if(_produtoBuscado == null)
+                {
+                    return NotFound();
+                }
+
+                _produto.Id = id;
+                _repository.AlterarProduto(_produto);
+
+                return Ok(_produto);
+            }
+            catch (Exception _e){
+
+                return BadRequest(_e.Message);
+            }
         }
 
         // DELETE api/<ProdutosController>/5
         [HttpDelete("{id}")]
-        public void Delete(Guid id)
+        public IActionResult Delete(Guid id)
         {
-            _repository.ExcluirProduto(id);
+            try
+            {
+                Produto _produtoBuscado = _repository.BuscarProdutoId(id);
+
+                if(_produtoBuscado == null)
+                {
+                    return NotFound();
+                }
+
+                _repository.ExcluirProduto(id);
+
+                return Ok(_produtoBuscado);
+            }
+            catch (Exception _e){
+
+                return BadRequest(_e.Message);
+            }
         }
     }
 }

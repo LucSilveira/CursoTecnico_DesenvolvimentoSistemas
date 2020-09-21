@@ -90,10 +90,10 @@ namespace EfCore.Repositories
             {
                 Produto _produtoBuscado = BuscarProdutoId(_produto.Id);
 
-                if(_produtoBuscado == null)
+                /*if(_produtoBuscado == null)
                 {
                     throw new Exception("Produto não encontrado");
-                }
+                }*/
 
                 _produtoBuscado.Nome = _produto.Nome;
                 _produtoBuscado.Preco = _produto.Preco;

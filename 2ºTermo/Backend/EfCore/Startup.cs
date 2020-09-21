@@ -24,7 +24,16 @@ namespace EfCore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(options => {
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+                // dessa forma evitamos que o loop do cadastro de pedidos itens seja evitado
+                // pois ao cadastrar um pedido com um produto é dado um erro devido que
+                // Pedido tem Pedidos Itens, Pedidos Itens tem Produtos, Produtos tem Pedidos Itens e Pedidos Itens tem Pedido (loop)
+
+                options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
+                //dessa forma evitamos mostrar os valores nullos das referencias dos objetivos cujo possuem um loop confirme citado acima
+                // Pedido tem Pedidos Items e Pedidoe Items tem produtos como null
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

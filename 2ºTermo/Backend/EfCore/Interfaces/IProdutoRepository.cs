@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EfCore.Interfaces
 {
-    interface IProdutoRepository
+    public interface IProdutoRepository
     {
         List<Produto> ListarPodutos();
         Produto BuscarProdutoId(Guid _idProduto);

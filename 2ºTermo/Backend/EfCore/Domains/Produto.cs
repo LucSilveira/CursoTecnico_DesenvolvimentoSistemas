@@ -10,5 +10,8 @@ namespace EfCore.Domains
     {
         public string Nome { get; set; }
         public float Preco { get; set; }
+
+        // relacionamento com a tabela de pedido de iten (1 > N)
+        public List<PedidoItem> PedidosItens { get; set; }
     }
 }

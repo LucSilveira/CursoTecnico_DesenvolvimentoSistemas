@@ -10,5 +10,13 @@ namespace EfCore.Domains
     {
         public string Status { get; set; }
         public DateTime OrderDate { get; set; }
+
+        // relacionamente com a tabela de pedidos de itend (1 > N)
+        public List<PedidoItem> PedidosItens { get; set; }
+
+        public Pedido()
+        {
+            PedidosItens = new List<PedidoItem>();
+        }
     }
 }

@@ -39,7 +39,11 @@ namespace EfCore.Controllers
                     return NoContent();
                 }
 
-                return Ok(_produtos);
+                return Ok(new {
+
+                    totalCount = _produtos.Count,
+                    data = _produtos
+                }) ;
             }
             catch (Exception _e){
 
@@ -137,7 +141,10 @@ namespace EfCore.Controllers
             }
             catch (Exception _e){
 
-                return BadRequest(_e.Message);
+                return BadRequest(new {
+                    statusCode = 400,
+                    error = "Não foi possivel realizar esta operação"
+                });
             }
         }
     }

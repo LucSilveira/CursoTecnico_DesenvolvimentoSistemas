@@ -26,7 +26,8 @@ namespace EfCore.Migrations
                 {
                     Id = table.Column<Guid>(nullable: false),
                     Nome = table.Column<string>(nullable: true),
-                    Preco = table.Column<float>(nullable: false)
+                    Preco = table.Column<float>(nullable: false),
+                    UrlImagem = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -39,7 +40,8 @@ namespace EfCore.Migrations
                 {
                     Id = table.Column<Guid>(nullable: false),
                     IdPedido = table.Column<Guid>(nullable: false),
-                    IdProduto = table.Column<Guid>(nullable: false)
+                    IdProduto = table.Column<Guid>(nullable: false),
+                    Quantidade = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {

@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using EfCore.Domains;
 using EfCore.Interfaces;
 using EfCore.Repositories;
+using EfCore.Utils;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -84,10 +87,17 @@ namespace EfCore.Controllers
         /// <param name="_produto">Produto capturado através do formulário</param>
         /// <returns>Dados referente ao produto cadastrado</returns>
         [HttpPost]
-        public IActionResult Post([FromBody] Produto _produto)
+        public IActionResult Post([FromForm] Produto _produto)
         {
             try
             {
+                if(_produto.Imagem != null)
+                {
+                    var _urlImg = UploadFiles.Local(_produto.Imagem);
+
+                    _produto.UrlImagem = _urlImg;
+                }
+
                 _repository.CadastrarProduto(_produto);
 
                 return Ok(_produto);
@@ -111,7 +121,7 @@ namespace EfCore.Controllers
                     return NotFound();
                 }
 
-                _produto.Id = id;
+                //_produto.Id = id;
                 _repository.AlterarProduto(_produto);
 
                 return Ok(_produto);

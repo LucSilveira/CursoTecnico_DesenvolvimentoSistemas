@@ -22,6 +22,7 @@ CREATE TABLE [Produtos] (
     [Id] uniqueidentifier NOT NULL,
     [Nome] nvarchar(max) NULL,
     [Preco] real NOT NULL,
+    [UrlImagem] nvarchar(max) NULL,
     CONSTRAINT [PK_Produtos] PRIMARY KEY ([Id])
 );
 
@@ -31,6 +32,7 @@ CREATE TABLE [PedidosItens] (
     [Id] uniqueidentifier NOT NULL,
     [IdPedido] uniqueidentifier NOT NULL,
     [IdProduto] uniqueidentifier NOT NULL,
+    [Quantidade] int NOT NULL,
     CONSTRAINT [PK_PedidosItens] PRIMARY KEY ([Id]),
     CONSTRAINT [FK_PedidosItens_Pedidos_IdPedido] FOREIGN KEY ([IdPedido]) REFERENCES [Pedidos] ([Id]) ON DELETE CASCADE,
     CONSTRAINT [FK_PedidosItens_Produtos_IdProduto] FOREIGN KEY ([IdProduto]) REFERENCES [Produtos] ([Id]) ON DELETE CASCADE
@@ -47,16 +49,7 @@ CREATE INDEX [IX_PedidosItens_IdProduto] ON [PedidosItens] ([IdProduto]);
 GO
 
 INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-VALUES (N'20200920192933_Initial', N'3.1.8');
-
-GO
-
-ALTER TABLE [PedidosItens] ADD [Quantidade] int NOT NULL DEFAULT 0;
-
-GO
-
-INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-VALUES (N'20200920194455_Alter-Table=PedidosItens', N'3.1.8');
+VALUES (N'20200921125918_Initial', N'3.1.8');
 
 GO
 

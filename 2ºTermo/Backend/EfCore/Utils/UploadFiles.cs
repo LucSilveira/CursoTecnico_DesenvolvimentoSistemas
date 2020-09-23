@@ -22,7 +22,7 @@ namespace EfCore.Utils
             //faz uma copia do arquivo inserido no nosso repositorio
             _file.CopyTo(_streamImagem);
 
-            return "https://localhost:3333/upload/imagens/" + _nomeArquivo;
+            return "http://localhost:52720/upload/imagens/" + _nomeArquivo;
         }
     }
 }

@@ -21,7 +21,10 @@ namespace EfCore.Controllers
             _repository = new PedidoRepository();
         }
 
-        // GET: api/<PedidoController>
+        /// <summary>
+        ///     Método para listar todos os pedidos do nosso sistema
+        /// </summary>
+        /// <returns>Lista de pedidos efetuados</returns>
         [HttpGet]
         public IActionResult Get()
         {
@@ -42,7 +45,11 @@ namespace EfCore.Controllers
             }
         }
 
-        // GET api/<PedidoController>/5
+        /// <summary>
+        ///     Método para buscar os dados de um pedido especifico
+        /// </summary>
+        /// <param name="id">Código de identificação do pedido</param>
+        /// <returns>Dados do pedido buscado</returns>
         [HttpGet("{id}")]
         public IActionResult Get(Guid id)
         {
@@ -63,7 +70,11 @@ namespace EfCore.Controllers
             }
         }
 
-        // POST api/<PedidoController>
+        /// <summary>
+        ///     Método para cadastro de um pedido
+        /// </summary>
+        /// <param name="_pedidosItens">Produtos no qual você solicitará no seu pedido</param>
+        /// <returns>Dados referente ao pedido cadastrado</returns>
         [HttpPost]
         public IActionResult Post(List<PedidoItem> _pedidosItens)
         {

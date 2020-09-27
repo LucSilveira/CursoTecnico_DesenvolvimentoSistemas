@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APIJogo</name>
+    </assembly>
+    <members>
+        <member name="M:APIJogo.Controllers.JogosController.Get">
+            <summary>
+            Método para listar os jogos cadastrados
+            </summary>
+            <returns>Lista com os jogos cadastrados</returns>
+        </member>
+        <member name="M:APIJogo.Controllers.JogosController.Get(System.Guid)">
+            <summary>
+            Método para buscar os dados pertinente de um jogo específico
+            </summary>
+            <param name="id">Código de identificação do jogo</param>
+            <returns>Dados refente ao jogo buscado</returns>
+        </member>
+        <member name="M:APIJogo.Controllers.JogosController.Post(APIJogo.Domains.Jogo)">
+            <summary>
+            Método para cadastrar um novo jogo
+            </summary>
+            <param name="_jogo">Dados a serem inseridos no jogo novo</param>
+            <returns>Jogo cadastrado com os dados informados</returns>
+        </member>
+        <member name="M:APIJogo.Controllers.JogosController.Put(System.Guid,APIJogo.Domains.Jogo)">
+            <summary>
+            Método para alterar os dados de um jogo
+            </summary>
+            <param name="id">Código de identificação do jogo</param>
+            <param name="_jogo">Dados a serem alterados do jogo</param>
+            <returns>Jogo com os dados novos inseridos</returns>
+        </member>
+        <member name="M:APIJogo.Controllers.JogosController.Delete(System.Guid)">
+            <summary>
+            Método para excluir um jogo
+            </summary>
+            <param name="id">Código de identificação do jogo</param>
+            <returns>Jogo que foi excluido</returns>
+        </member>
+        <member name="M:APIJogo.Repositories.JogosRepository.ListarJogos">
+            <summary>
+            Método para listar os jogos cadastrados
+            </summary>
+            <returns>Lista com nossos jogos</returns>
+        </member>
+        <member name="M:APIJogo.Repositories.JogosRepository.BuscarJogoId(System.Guid)">
+            <summary>
+            Método para buscar os dados pertinentes de um jogo
+            </summary>
+            <param name="_idJogo">Código de identificação do jogo</param>
+            <returns>Dados pertinentes ao jogo buscado</returns>
+        </member>
+        <member name="M:APIJogo.Repositories.JogosRepository.CadastrarJogo(APIJogo.Domains.Jogo)">
+            <summary>
+            Método para cadastrar um novo jogo
+            </summary>
+            <param name="_jogo">Dados do jogo a serem cadastrados</param>
+            <returns>Jogo recem cadastrado</returns>
+        </member>
+        <member name="M:APIJogo.Repositories.JogosRepository.AlterarJogo(APIJogo.Domains.Jogo)">
+            <summary>
+            Método para alterar os dados de um jogo
+            </summary>
+            <param name="_jogo">Dados a serem alterados</param>
+            <returns>Dado alterado</returns>
+        </member>
+    </members>
+</doc>

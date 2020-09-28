@@ -29,15 +29,16 @@ namespace Nyous
         {
             services.AddControllers();
 
-            //configurando nosso sistema de JwT
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options => 
+            // JWT
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            .AddJwtBearer(options =>
             {
                 options.TokenValidationParameters = new TokenValidationParameters
                 {
-                    ValidateIssuer = true, // valida o emissor que seria a propria aplicacao
-                    ValidateAudience = true, // valida os receptores que consumiram o servico
-                    ValidateLifetime = true, // valida o tempo de vida do token
-                    ValidateIssuerSigningKey = true, //validar a chave de seguranca do sistema na appsetings.json
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
                     ValidIssuer = Configuration["Jwt:Issuer"],
                     ValidAudience = Configuration["Jwt:Issuer"],
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
@@ -55,8 +56,9 @@ namespace Nyous
 
             app.UseRouting();
 
+            //é preciso utilizar a autenticacao antes da authorization
             app.UseAuthentication();
-            
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

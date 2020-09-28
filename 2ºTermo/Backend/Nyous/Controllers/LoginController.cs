@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Nyous.Contexts;
 using Nyous.Domains;
+using Nyous.Utils;
 
 namespace Nyous.Controllers
 {
@@ -33,6 +34,9 @@ namespace Nyous.Controllers
 
         private Usuario AuthenticateUser(Usuario login)
         {
+            login.Senha = Crypto.Criptografar(login.Senha, login.Email.Substring(0, 4)); //Definir que o Salt será as 4 primeiras letras do email
+
+
             return _contexto.Usuario.Include(a => a.IdAcessoNavigation).FirstOrDefault(u => u.Email == login.Email && u.Senha == login.Senha);
         }
 

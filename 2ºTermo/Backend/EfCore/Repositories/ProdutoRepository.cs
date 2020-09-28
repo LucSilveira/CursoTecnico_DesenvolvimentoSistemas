@@ -90,18 +90,14 @@ namespace EfCore.Repositories
             {
                 Produto _produtoBuscado = BuscarProdutoId(_produto.Id);
 
-                /*if(_produtoBuscado == null)
-                {
-                    throw new Exception("Produto não encontrado");
-                }*/
-
-                _produtoBuscado.Nome = _produto.Nome;
+                _produtoBuscado.Nome = _produto.Nome + "Cleber";
                 _produtoBuscado.Preco = _produto.Preco;
+                _produtoBuscado.UrlImagem = _produto.UrlImagem;
 
                 _context.Produtos.Update(_produtoBuscado);
                 _context.SaveChanges();
 
-                return _produto;
+                return _produtoBuscado;
 
             }catch(Exception _e){
 

@@ -73,7 +73,12 @@ namespace EfCore.Controllers
                     return NoContent();
                 }
 
-                return Ok(_produto);
+                Moeda dolar = new Moeda();
+
+                return Ok(new {
+                    _produto,
+                    valorDolar = _produto.Preco / dolar.GetDolarValue()
+                });
             }
             catch (Exception _e){
 
@@ -110,7 +115,7 @@ namespace EfCore.Controllers
 
         // PUT api/<ProdutosController>/5
         [HttpPut("{id}")]
-        public IActionResult Put(Guid id, [FromBody] Produto _produto)
+        public IActionResult Put(Guid id, [FromForm] Produto _produto)
         {
             try
             {
@@ -119,6 +124,13 @@ namespace EfCore.Controllers
                 if(_produtoBuscado == null)
                 {
                     return NotFound();
+                }
+
+                if (_produto.Imagem != null)
+                {
+                    var _urlImg = UploadFiles.Local(_produto.Imagem);
+
+                    _produto.UrlImagem = _urlImg;
                 }
 
                 //_produto.Id = id;

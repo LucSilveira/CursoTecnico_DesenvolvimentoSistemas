@@ -61,9 +61,6 @@ C:\Users\FIC\Desktop\LucasFiles\DevSenai\2ºTermo\Backend\EduxProject\bin\Debug\
 C:\Users\FIC\Desktop\LucasFiles\DevSenai\2ºTermo\Backend\EduxProject\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\FIC\Desktop\LucasFiles\DevSenai\2ºTermo\Backend\EduxProject\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\FIC\Desktop\LucasFiles\DevSenai\2ºTermo\Backend\EduxProject\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\FIC\Desktop\LucasFiles\DevSenai\2ºTermo\Backend\EduxProject\obj\Debug\netcoreapp3.1\EduxProject.csproj.CoreCompileInputs.cache
-C:\Users\FIC\Desktop\LucasFiles\DevSenai\2ºTermo\Backend\EduxProject\obj\Debug\netcoreapp3.1\EduxProject.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\FIC\Desktop\LucasFiles\DevSenai\2ºTermo\Backend\EduxProject\obj\Debug\netcoreapp3.1\EduxProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\FIC\Desktop\LucasFiles\DevSenai\2ºTermo\Backend\EduxProject\obj\Debug\netcoreapp3.1\EduxProject.dll
 C:\Users\FIC\Desktop\LucasFiles\DevSenai\2ºTermo\Backend\EduxProject\obj\Debug\netcoreapp3.1\EduxProject.pdb
 C:\Users\FIC\Desktop\LucasFiles\DevSenai\2ºTermo\Backend\EduxProject\obj\Debug\netcoreapp3.1\EduxProject.genruntimeconfig.cache

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace EduxProject.Domains
 {
-    public partial class Instituicao
+    public partial class Instituicoes
     {
-        public Instituicao()
+        public Instituicoes()
         {
-            Curso = new HashSet<Curso>();
+            Cursos = new HashSet<Cursos>();
         }
 
         public int Id { get; set; }
@@ -20,6 +20,6 @@ namespace EduxProject.Domains
         public string Uf { get; set; }
         public string Cep { get; set; }
 
-        public virtual ICollection<Curso> Curso { get; set; }
+        public virtual ICollection<Cursos> Cursos { get; set; }
     }
 }

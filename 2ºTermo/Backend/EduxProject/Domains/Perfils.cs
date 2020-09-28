@@ -3,16 +3,16 @@ using System.Collections.Generic;
 
 namespace EduxProject.Domains
 {
-    public partial class Perfil
+    public partial class Perfils
     {
-        public Perfil()
+        public Perfils()
         {
-            Usuario = new HashSet<Usuario>();
+            Usuarios = new HashSet<Usuarios>();
         }
 
         public int Id { get; set; }
         public string Permissao { get; set; }
 
-        public virtual ICollection<Usuario> Usuario { get; set; }
+        public virtual ICollection<Usuarios> Usuarios { get; set; }
     }
 }

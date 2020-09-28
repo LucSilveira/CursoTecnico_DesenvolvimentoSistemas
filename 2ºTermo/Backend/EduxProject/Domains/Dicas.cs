@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace EduxProject.Domains
 {
-    public partial class Dica
+    public partial class Dicas
     {
-        public Dica()
+        public Dicas()
         {
-            Curtida = new HashSet<Curtida>();
+            Curtidas = new HashSet<Curtidas>();
         }
 
         public int Id { get; set; }
@@ -15,7 +15,7 @@ namespace EduxProject.Domains
         public string Imagem { get; set; }
         public int? IdUsuario { get; set; }
 
-        public virtual Usuario IdUsuarioNavigation { get; set; }
-        public virtual ICollection<Curtida> Curtida { get; set; }
+        public virtual Usuarios IdUsuarioNavigation { get; set; }
+        public virtual ICollection<Curtidas> Curtidas { get; set; }
     }
 }

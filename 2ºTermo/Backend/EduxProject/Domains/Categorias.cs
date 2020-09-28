@@ -3,16 +3,16 @@ using System.Collections.Generic;
 
 namespace EduxProject.Domains
 {
-    public partial class Categoria
+    public partial class Categorias
     {
-        public Categoria()
+        public Categorias()
         {
-            Objetivo = new HashSet<Objetivo>();
+            Objetivos = new HashSet<Objetivos>();
         }
 
         public int Id { get; set; }
         public string Tipo { get; set; }
 
-        public virtual ICollection<Objetivo> Objetivo { get; set; }
+        public virtual ICollection<Objetivos> Objetivos { get; set; }
     }
 }

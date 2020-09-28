@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace EduxProject.Domains
 {
-    public partial class ObjetivoAluno
+    public partial class ObjetivosAlunos
     {
         public int Id { get; set; }
         public decimal? Nota { get; set; }
@@ -11,7 +11,7 @@ namespace EduxProject.Domains
         public int? IdAlunoTurma { get; set; }
         public int? IdObjetivo { get; set; }
 
-        public virtual AlunoTurma IdAlunoTurmaNavigation { get; set; }
-        public virtual Objetivo IdObjetivoNavigation { get; set; }
+        public virtual AlunosTurmas IdAlunoTurmaNavigation { get; set; }
+        public virtual Objetivos IdObjetivoNavigation { get; set; }
     }
 }

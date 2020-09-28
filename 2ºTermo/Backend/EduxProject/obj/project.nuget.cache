@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JU5oLO+SuXTShuc8ZMKwSfXn4FQM0pq2BIJ0jeB7b3NwdObYubnJgLSiYB6NqfMEaZOXtqks5G3lIf1crkbgdg==",
+  "dgSpecHash": "KzjyrB1z7nBHTL/a2Pp2VwMYRS33lhbCl7BXs4ToxZ9U6/j9EYnhh+VGBT1Rh/gDQSyLU5ZicwdoBiL26as50w==",
   "success": true,
   "projectFilePath": "C:\\Users\\FIC\\Desktop\\LucasFiles\\DevSenai\\2ºTermo\\Backend\\EduxProject\\EduxProject.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\FIC\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.8\\microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512",
     "C:\\Users\\FIC\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.8\\microsoft.aspnetcore.jsonpatch.3.1.8.nupkg.sha512",
     "C:\\Users\\FIC\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.8\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.8.nupkg.sha512",
     "C:\\Users\\FIC\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

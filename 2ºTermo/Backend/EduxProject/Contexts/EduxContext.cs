@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using EduxProject.Domains;
 
-namespace EduxProject.Contextts
+namespace EduxProject.Contexts
 {
     public partial class EduxContext : DbContext
     {
@@ -16,18 +16,18 @@ namespace EduxProject.Contextts
         {
         }
 
-        public virtual DbSet<AlunoTurma> AlunoTurma { get; set; }
-        public virtual DbSet<Categoria> Categoria { get; set; }
-        public virtual DbSet<Curso> Curso { get; set; }
-        public virtual DbSet<Curtida> Curtida { get; set; }
-        public virtual DbSet<Dica> Dica { get; set; }
-        public virtual DbSet<Instituicao> Instituicao { get; set; }
-        public virtual DbSet<Objetivo> Objetivo { get; set; }
-        public virtual DbSet<ObjetivoAluno> ObjetivoAluno { get; set; }
-        public virtual DbSet<Perfil> Perfil { get; set; }
-        public virtual DbSet<ProfessorTurma> ProfessorTurma { get; set; }
-        public virtual DbSet<Turma> Turma { get; set; }
-        public virtual DbSet<Usuario> Usuario { get; set; }
+        public virtual DbSet<AlunosTurmas> AlunosTurmas { get; set; }
+        public virtual DbSet<Categorias> Categorias { get; set; }
+        public virtual DbSet<Cursos> Cursos { get; set; }
+        public virtual DbSet<Curtidas> Curtidas { get; set; }
+        public virtual DbSet<Dicas> Dicas { get; set; }
+        public virtual DbSet<Instituicoes> Instituicoes { get; set; }
+        public virtual DbSet<Objetivos> Objetivos { get; set; }
+        public virtual DbSet<ObjetivosAlunos> ObjetivosAlunos { get; set; }
+        public virtual DbSet<Perfils> Perfils { get; set; }
+        public virtual DbSet<ProfessoresTurmas> ProfessoresTurmas { get; set; }
+        public virtual DbSet<Turmas> Turmas { get; set; }
+        public virtual DbSet<Usuarios> Usuarios { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -40,56 +40,56 @@ namespace EduxProject.Contextts
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<AlunoTurma>(entity =>
+            modelBuilder.Entity<AlunosTurmas>(entity =>
             {
                 entity.Property(e => e.Matricula)
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.IdTurmaNavigation)
-                    .WithMany(p => p.AlunoTurma)
+                    .WithMany(p => p.AlunosTurmas)
                     .HasForeignKey(d => d.IdTurma)
-                    .HasConstraintName("FK__AlunoTurm__IdTur__5165187F");
+                    .HasConstraintName("FK__AlunosTur__IdTur__5165187F");
 
                 entity.HasOne(d => d.IdUsuarioNavigation)
-                    .WithMany(p => p.AlunoTurma)
+                    .WithMany(p => p.AlunosTurmas)
                     .HasForeignKey(d => d.IdUsuario)
-                    .HasConstraintName("FK__AlunoTurm__IdUsu__5070F446");
+                    .HasConstraintName("FK__AlunosTur__IdUsu__5070F446");
             });
 
-            modelBuilder.Entity<Categoria>(entity =>
+            modelBuilder.Entity<Categorias>(entity =>
             {
                 entity.Property(e => e.Tipo)
                     .HasMaxLength(255)
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<Curso>(entity =>
+            modelBuilder.Entity<Cursos>(entity =>
             {
                 entity.Property(e => e.Titulo)
                     .HasMaxLength(255)
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.IdInstituicaoNavigation)
-                    .WithMany(p => p.Curso)
+                    .WithMany(p => p.Cursos)
                     .HasForeignKey(d => d.IdInstituicao)
-                    .HasConstraintName("FK__Curso__IdInstitu__398D8EEE");
+                    .HasConstraintName("FK__Cursos__IdInstit__398D8EEE");
             });
 
-            modelBuilder.Entity<Curtida>(entity =>
+            modelBuilder.Entity<Curtidas>(entity =>
             {
                 entity.HasOne(d => d.IdDicaNavigation)
-                    .WithMany(p => p.Curtida)
+                    .WithMany(p => p.Curtidas)
                     .HasForeignKey(d => d.IdDica)
-                    .HasConstraintName("FK__Curtida__IdDica__4CA06362");
+                    .HasConstraintName("FK__Curtidas__IdDica__4CA06362");
 
                 entity.HasOne(d => d.IdUsuarioNavigation)
-                    .WithMany(p => p.Curtida)
+                    .WithMany(p => p.Curtidas)
                     .HasForeignKey(d => d.IdUsuario)
-                    .HasConstraintName("FK__Curtida__IdUsuar__4D94879B");
+                    .HasConstraintName("FK__Curtidas__IdUsua__4D94879B");
             });
 
-            modelBuilder.Entity<Dica>(entity =>
+            modelBuilder.Entity<Dicas>(entity =>
             {
                 entity.Property(e => e.Imagem)
                     .HasMaxLength(255)
@@ -100,12 +100,12 @@ namespace EduxProject.Contextts
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.IdUsuarioNavigation)
-                    .WithMany(p => p.Dica)
+                    .WithMany(p => p.Dicas)
                     .HasForeignKey(d => d.IdUsuario)
-                    .HasConstraintName("FK__Dica__IdUsuario__49C3F6B7");
+                    .HasConstraintName("FK__Dicas__IdUsuario__49C3F6B7");
             });
 
-            modelBuilder.Entity<Instituicao>(entity =>
+            modelBuilder.Entity<Instituicoes>(entity =>
             {
                 entity.Property(e => e.Bairro)
                     .HasMaxLength(255)
@@ -142,72 +142,72 @@ namespace EduxProject.Contextts
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<Objetivo>(entity =>
+            modelBuilder.Entity<Objetivos>(entity =>
             {
                 entity.Property(e => e.Descricao)
                     .HasMaxLength(255)
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.IdCategoriaNavigation)
-                    .WithMany(p => p.Objetivo)
+                    .WithMany(p => p.Objetivos)
                     .HasForeignKey(d => d.IdCategoria)
-                    .HasConstraintName("FK__Objetivo__IdCate__412EB0B6");
+                    .HasConstraintName("FK__Objetivos__IdCat__412EB0B6");
             });
 
-            modelBuilder.Entity<ObjetivoAluno>(entity =>
+            modelBuilder.Entity<ObjetivosAlunos>(entity =>
             {
                 entity.Property(e => e.DataAlcancado).HasColumnType("datetime");
 
                 entity.Property(e => e.Nota).HasColumnType("decimal(10, 2)");
 
                 entity.HasOne(d => d.IdAlunoTurmaNavigation)
-                    .WithMany(p => p.ObjetivoAluno)
+                    .WithMany(p => p.ObjetivosAlunos)
                     .HasForeignKey(d => d.IdAlunoTurma)
-                    .HasConstraintName("FK__ObjetivoA__IdAlu__59FA5E80");
+                    .HasConstraintName("FK__Objetivos__IdAlu__59FA5E80");
 
                 entity.HasOne(d => d.IdObjetivoNavigation)
-                    .WithMany(p => p.ObjetivoAluno)
+                    .WithMany(p => p.ObjetivosAlunos)
                     .HasForeignKey(d => d.IdObjetivo)
-                    .HasConstraintName("FK__ObjetivoA__IdObj__5AEE82B9");
+                    .HasConstraintName("FK__Objetivos__IdObj__5AEE82B9");
             });
 
-            modelBuilder.Entity<Perfil>(entity =>
+            modelBuilder.Entity<Perfils>(entity =>
             {
                 entity.Property(e => e.Permissao)
                     .HasMaxLength(10)
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<ProfessorTurma>(entity =>
+            modelBuilder.Entity<ProfessoresTurmas>(entity =>
             {
                 entity.Property(e => e.Matricula)
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.IdTurmaNavigation)
-                    .WithMany(p => p.ProfessorTurma)
+                    .WithMany(p => p.ProfessoresTurmas)
                     .HasForeignKey(d => d.IdTurma)
                     .HasConstraintName("FK__Professor__IdTur__5535A963");
 
                 entity.HasOne(d => d.IdUsuarioNavigation)
-                    .WithMany(p => p.ProfessorTurma)
+                    .WithMany(p => p.ProfessoresTurmas)
                     .HasForeignKey(d => d.IdUsuario)
                     .HasConstraintName("FK__Professor__IdUsu__5441852A");
             });
 
-            modelBuilder.Entity<Turma>(entity =>
+            modelBuilder.Entity<Turmas>(entity =>
             {
                 entity.Property(e => e.Descricao)
                     .HasMaxLength(255)
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.IdCursoNavigation)
-                    .WithMany(p => p.Turma)
+                    .WithMany(p => p.Turmas)
                     .HasForeignKey(d => d.IdCurso)
-                    .HasConstraintName("FK__Turma__IdCurso__3C69FB99");
+                    .HasConstraintName("FK__Turmas__IdCurso__3C69FB99");
             });
 
-            modelBuilder.Entity<Usuario>(entity =>
+            modelBuilder.Entity<Usuarios>(entity =>
             {
                 entity.Property(e => e.DataCadastro)
                     .HasColumnType("datetime")
@@ -228,9 +228,9 @@ namespace EduxProject.Contextts
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.IdPerfilNavigation)
-                    .WithMany(p => p.Usuario)
+                    .WithMany(p => p.Usuarios)
                     .HasForeignKey(d => d.IdPerfil)
-                    .HasConstraintName("FK__Usuario__IdPerfi__46E78A0C");
+                    .HasConstraintName("FK__Usuarios__IdPerf__46E78A0C");
             });
 
             OnModelCreatingPartial(modelBuilder);

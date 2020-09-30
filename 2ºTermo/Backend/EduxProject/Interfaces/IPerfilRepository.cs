@@ -10,8 +10,8 @@ namespace EduxProject.Interfaces
     {
         Task<List<Perfils>> ListarPerfils();
         Task<Perfils> BuscarPerfilPorId(int _idPerfil);
-        Task<Perfils> CadastrarPerfil(Perfils _perfils);
-        Task<Perfils> AlterarPerfil(Perfils _perfils);
-        Task<Perfils> ExcluirPerfil(Perfils _perfils);
+        Task<Perfils> CadastrarPerfil(Perfils _perfil);
+        Task<Perfils> AlterarPerfil(Perfils _perfil);
+        Task<Perfils> ExcluirPerfil(Perfils _perfil);
     }
 }

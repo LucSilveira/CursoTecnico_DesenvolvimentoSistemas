@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Exercícios</title>
+
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <script>
+        let times = [{
+            nome: "Liverpool",
+            vitorias: 23,
+            empates: 7,
+            derrotas:1,
+            golsproprio:70,
+            golscontra:52
+        }, {
+            nome: "City",
+            vitorias: 24,
+            empates: 2,
+            derrotas:4,
+            golsproprio:79,
+            golscontra:21
+        }, {
+            nome: "Tottenhan",
+            vitorias: 20,
+            empates: 1,
+            derrotas:9,
+            golsproprio:57,
+            golscontra:32
+        }, {
+            nome: "Arsenal",
+            vitorias: 18,
+            empates: 6,
+            derrotas:6,
+            golsproprio:63,
+            golscontra:39
+        }, {
+            nome: "Manchester United",
+            vitorias: 17,
+            empates: 7,
+            derrotas:6,
+            golsproprio:58,
+            golscontra:40
+        }, {
+            nome: "Chelsea",
+            vitorias: 17,
+            empates: 6,
+            derrotas:7,
+            golsproprio:50,
+            golscontra:33
+        }];
+
+        // 1. Lista somente os times cujas vitórias seja maior ou igual que 20
+        console.log("Listando apenas os times com vitorias maiores que 20 ");
+        let vitorias = times.filter(times => {
+            return times.vitorias >= 20;
+        });
+
+        console.log(vitorias);
+
+        // 2. Traga somente os nomes dos times;
+        console.log("Listando apenas os nomes dos times");
+        let nomes = times.map(times => {
+            return times.nome;
+        });
+
+        console.log(nomes);
+
+        // 3. Adicione mais um time chamado Wolves, vitorias 12, empates 8, derrotas 10, gols proprios 38, golscontras 36;
+        console.log("Adicionando um novo time a lista");
+        let novoTime = times.push(
+            time = {
+                nome : 'Wolves',
+                vitorias : 12,
+                empates : 8,
+                derrotas : 10,
+                golsproprio : 38,
+                golscontra : 36
+            }
+        )
+
+        console.log(times);
+
+        // 4. Mostre o nome e a quantidade de jogos(vitorias, empates e derrotas), quantidade de vitorias, empates e derrotas de um time
+        console.log("Listando dados definidos a cerca dos times");
+        let dadosDefinidos = times.map(time => {
+            return {
+                quantidadeJogos : parseInt(time.vitorias) + parseInt(time.derrotas) + parseInt(time.empates),
+                vitorias : time.vitorias,
+                empates : time.empates,
+                derrotas : time.derrotas
+            }
+        });
+
+        console.log(dadosDefinidos);
+
+        // 5. Informe a quantidade de jogos do campeonato;
+        console.log("Somando a quantidade de jogos do campeonato");
+        let somaJogos = dadosDefinidos.reduce((soma, cadaTime) => {
+            return soma + parseInt(cadaTime.quantidadeJogos);
+        }, 0);
+
+        console.log(somaJogos);
+        
+    </script>
+
+</body>
+
+</html>

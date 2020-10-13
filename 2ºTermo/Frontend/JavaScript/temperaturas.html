@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form class="conversor">
+        <input type="text" class="temperatura" name="temperatura">
+
+        <p>Informe em que escala de temperatura é o valor informado</p>
+        <input type="checkbox" id="kelvinEntrada" name="kelvin">Kelvin</checkbox>
+        <input type="checkbox" id="farenEntrada" name="faren">Fahrenheit</checkbox>
+        <input type="checkbox" id="celsiusEntrada" name="faren">Celsius</checkbox>
+
+        <p>Informe em que escala de temperatura você queira faer a conversão</p>
+        <input type="checkbox" id="kelvinSaida" name="kelvin">Kelvin</checkbox>
+        <input type="checkbox" id="farenSaida" name="faren">Fahrenheit</checkbox>
+        <input type="checkbox" id="celsiusSaida" name="faren">Celsius</checkbox>
+
+        <button id="calcular" type="submit">Converter</button>
+    </form>
+
+    <h3>A temperatura informada em <p id="entrada"></p> é : <p id="valorEntrada"></p></h3>
+    <br/>
+    <h3>A temperatura convertida em <p id="saida"></p> é : <p id="valorSaida"></p></h3>
+    <br/>
+    <h2 id="error"></h2>
+    
+    <script>
+        let valorInformado = document.querySelector(".temperatura");
+        let error = document.getElementById("error").style.color = "red";
+        let btn = document.getElementById("calcular");
+        let res;
+
+        //pegando os valores de entrada
+        let C_Entrada = document.getElementById("celsiusEntrada");
+        let F_Entrada = document.getElementById("farenEntrada");
+        let K_Entrada = document.getElementById("kelvinEntrada");7
+        let entrada = document.querySelector("#entrada");
+        let resEntrada = document.querySelector("#valorEntrada");
+
+        //pegando os valores de saida
+        let C_Saida = document.getElementById("celsiusSaida");
+        let F_Saida = document.getElementById("farenSaida");
+        let K_Saida = document.getElementById("kelvinSaida");
+        let saida = document.querySelector("#saida");
+        let resSaida = document.querySelector("#valorSaida");
+
+        btn.addEventListener("click", function(event){
+            event.preventDefault();
+            res = 0;
+            
+            if(C_Entrada.checked && K_Saida.checked){
+                CelsiusToKelvin();
+            }else if(C_Entrada.checked && F_Saida.checked){
+                CelsiusToFahren();
+            }
+
+            //Fazendo as converções de Kelvin
+            if(K_Entrada.checked && K_Saida.checked){
+                error.innerHTML = "A mesma escala de temperatura foi informada, escolha outra opção"
+            }
+            
+            if(K_Entrada.checked && C_Saida.checked){
+                KelvinToCelsius();
+            }else if(K_Entrada.checked && F_Saida.checked){
+                KelvinToFahren();
+            }
+
+            //Fazendo as converções de Fahrenheit
+            if(F_Entrada.checked && F_Saida.checked){
+                error.innerHTML = "A mesma escala de temperatura foi informada, escolha outra opção"
+            }
+            
+            if(F_Entrada.checked && C_Saida.checked){
+                FahrenToCelsius();
+            }else if(F_Entrada.checked && K_Saida.checked){
+                FahrenToKelvin();
+            }
+        });
+
+        //ºC + 273,15 == ºK
+        async function CelsiusToKelvin(){
+
+            res = parseFloat(valorInformado.value) + 273.15;
+
+            entrada.innerHTML = "Celsius (ºC)";
+            valorEntrada.innerHTML = valorInformado.value + "ºC";
+
+            saida.innerHTML = "Kelvin (ºK)";
+            valorSaida.innerHTML = res + "ºK";
+        }
+
+        //((ºC * 9) / 5) + 32 == ºF
+        async function CelsiusToFahren(){
+
+            res = ((parseFloat(valorInformado.value) * 9) / 5) + 32;
+
+            entrada.innerHTML = "Celsius (ºC)";
+            valorEntrada.innerHTML = valorInformado.value + "ºC";
+
+            saida.innerHTML = "Fahrenheit (ºF)";
+            valorSaida.innerHTML = res + "ºF";
+        }
+
+        //ºK - 273,15 == ºC
+        async function KelvinToCelsius(){
+
+            res = parseFloat(valorInformado.value) - 273.15;
+
+            entrada.innerHTML = "Kelvin (ºK)";
+            valorEntrada.innerHTML = valorInformado.value + "ºK";
+
+            saida.innerHTML = "Celsius (ºC)";
+            valorSaida.innerHTML = res + "ºC";
+        }
+
+        //(((ºK - 273,15) * 9) / 5) + 32  == ºF
+        async function KelvinToFahren(){
+
+            res = (((parseFloat(valorInformado.value) - 273.15) * 9) / 5) + 32;
+
+            entrada.innerHTML = "Kelvin (ºK)";
+            valorEntrada.innerHTML = valorInformado.value + "ºK";
+
+            saida.innerHTML = "Fahrenheit (ºF)";
+            valorSaida.innerHTML = res + "ºF";
+        }
+
+        //((ºF - 32) * 5) / 9 == ºC
+        function FahrenToCelsius(){
+
+            res = ((parseFloat(valorInformado.value) - 32) * 5) / 9;
+
+            entrada.innerHTML = "Fahrenheit (ºF)";
+            valorEntrada.innerHTML = valorInformado.value + "ºF";
+
+            saida.innerHTML = "Celsius (ºC)";
+            valorSaida.innerHTML = res + "ºC";
+        }
+
+        //(((ºF - 32) * 5) / 9) + 273,15 == ºK
+        function FahrenToKelvin(){
+
+            res = (((parseFloat(valorInformado.value) - 32) * 5) / 9) + 273.15;
+
+            entrada.innerHTML = "Fahrenheit (ºF)";
+            valorEntrada.innerHTML = valorInformado.value + "ºF";
+
+            saida.innerHTML = "Kelvin (ºK)";
+            valorSaida.innerHTML = res + "ºK";
+        }
+    </script>
+</body>
+</html>

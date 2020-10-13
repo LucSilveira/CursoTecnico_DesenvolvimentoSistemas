@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        let pets = [{
+            nome: "Doguinho A",
+            idade: 4,
+            tipoPet: "cachorro"
+        }, {
+            nome: "Doguinho B",
+            idade: 5,
+            tipoPet: "cachorro"
+        }, {
+            nome: "Doguinho C",
+            idade: 11,
+            tipoPet: "cachorro"
+        }, {
+            nome: "Gatinho A",
+            idade: 17,
+            tipoPet: "gato"
+        }, {
+            nome: "Gatinho H",
+            idade: 2,
+            tipoPet: "gato"
+        }, {
+            nome: "Passarinho A",
+            idade: 12,
+            tipoPet: "pássaro"
+        }, {
+            nome: "Doguinho Z",
+            idade: 16,
+            tipoPet: "cachorro"
+        }, {
+            nome: "Doguinho H",
+            idade: 4,
+            tipoPet: "cachorro"
+        }, {
+            nome: "Gatinho P",
+            idade: 3,
+            tipoPet: "gato"
+        }];
+
+
+        // Listar pets do tipo 'gato'
+        console.log("Mostrando apenas os gatos");
+        let gatos = pets.filter(pet => {
+
+            return pet.tipoPet == "gato";
+        });
+
+        console.log(gatos);
+
+        // Listar pets com idade maior que '7'
+        console.log("mostrando os pets com idade superior a 7");
+        let petsIdade = pets.filter(pet => {
+
+            return pet.idade > 7;
+        });
+
+        console.log(petsIdade);
+
+        // Somar idade dos pets
+        console.log("Somando idade dos petss");
+        let somaPets = pets.reduce((soma, cadaPet) => {
+            return soma + parseInt(cadaPet.idade);
+        }, 0);
+
+        console.log(somaPets);
+
+        // Listar apenas os nomes dos pets
+        console.log("Mostrando apenas os nomes");
+        let nomes = pets.map(pet => pet.nome);
+
+        console.log(nomes);
+
+        // Listar as idades dos pets em anos humanos
+        console.log("Mostrando apenas as idades em humanos");
+        let idadeHumana = pets.map(pet => parseInt(pet.idade * 7));
+
+        console.log(idadeHumana);
+
+        // Exibir a quantidade de cachorros na lista
+        console.log("Mostrando apenas a quantidade de cachorros");
+        let cachorros = pets.filter(pet => {
+            return pet.tipoPet == "cachorro";
+        })
+
+        console.log(cachorros.length);
+
+        // Listar apenas os nomes e o tipo dos pets
+        console.log("Mostrando apenas os nomes e os tipos dos pets");
+        let nomeTipo = pets.map(pet => {
+            return {
+                nome : pet.nome,
+                tipo : pet.tipoPet
+            }
+        });
+
+        console.log(nomeTipo);
+    </script>
+</body>
+</html>

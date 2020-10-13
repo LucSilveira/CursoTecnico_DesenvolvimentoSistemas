@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="Listar()">
+    <form class="formulario">
+        <input type="text" id="nome" placeholder="insira um nome">
+        <input type="text" id="email" placeholder="insira o email">
+        <input type="text" id="telefone" placeholder="insira o telefone">
+        
+        <button id="cadastrar" type="submit">Cadastrar</button>
+        <button id="remover" type="submit">Remover</button>
+    </form>
+    
+    <table>
+        <caption>Usuários</caption>
+        <thead>
+            <th>
+                Nome do usuário
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Telefone
+            </th>
+        </thead>
+        <tbody id="table-lista">
+            
+        </tbody>
+    </table>
+    
+    <script>
+        let usuarios = [{nome : 'Usuário teste', email : 'usuario@email.com', telefone : '11954864215'}]
+
+        let btnCadastrar = document.querySelector("#cadastrar");
+        btnCadastrar.addEventListener('click', cadastrarUsuario);
+
+        let btnRemover = document.querySelector("#remover");
+        btnRemover.addEventListener('click', removerUsuario);
+
+        function Listar(){
+            let corpoTabela = document.getElementById("table-lista");
+
+            corpoTabela.innerHTML = "";
+            let colunaNome, colunaEmail, colunaTelefone, linha;
+
+            usuarios.forEach(user => {
+                linha = document.createElement('tr');
+
+                colunaNome = document.createElement('td');
+                colunaNome.innerHTML = user.nome;
+                linha.appendChild(colunaNome);
+
+
+                colunaEmail = document.createElement('td');
+                colunaEmail.innerHTML = user.email;
+                linha.appendChild(colunaEmail);
+
+                
+                colunaTelefone = document.createElement('td');
+                colunaTelefone.innerHTML = user.telefone;
+                linha.appendChild(colunaTelefone);
+
+                corpoTabela.appendChild(linha);
+            })
+        }
+
+            let nome = document.getElementById('nome');
+            let email = document.getElementById('email');
+            let telefone = document.getElementById('telefone');
+
+
+
+            function cadastrarUsuario(event){
+                event.preventDefault();
+
+                let usuario = {
+                    nome : nome.value,
+                    email : email.value,
+                    telefone : telefone.value
+                }
+
+                usuarios.push(usuario);
+
+                Listar();
+
+                nome.value = "";
+                email.value = "";
+                telefone.value = "";
+
+                nome.focus();
+            };
+            
+
+            function removerUsuario(event){
+                event.preventDefault();
+
+                let indexUsuario = usuarios.findIndex(user => user.email == email.value);
+                
+                if(indexUsuario > -1){
+                    usuarios.splice(indexUsuario, 1);
+                    Listar();
+                }else{
+                    alert('Usuário não encontrado')
+                }
+
+                email.value = "";
+            }
+    </script>
+</body>
+</html>

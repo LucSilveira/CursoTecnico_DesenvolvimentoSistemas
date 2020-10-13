@@ -90,7 +90,7 @@ namespace EfCore.Repositories
             {
                 Produto _produtoBuscado = BuscarProdutoId(_produto.Id);
 
-                _produtoBuscado.Nome = _produto.Nome + "Cleber";
+                _produtoBuscado.Nome = _produto.Nome;
                 _produtoBuscado.Preco = _produto.Preco;
                 _produtoBuscado.UrlImagem = _produto.UrlImagem;
 

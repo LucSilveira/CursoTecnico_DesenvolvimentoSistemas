@@ -26,7 +26,7 @@ CREATE TABLE Curso (
 	Id INT PRIMARY KEY IDENTITY NOT NULL,
 	Titulo VARCHAR(255),
 
-	IdInstituicao INT FOREIGN KEY REFERENCES Instituicao(Id)
+	IdInstituicao INT FOREIGN KEY REFERENCES Instituicao (Id)
 );
 
 -- Criando a tabela de Turma
@@ -34,7 +34,7 @@ CREATE TABLE Turma (
 	Id INT PRIMARY KEY IDENTITY NOT NULL,
 	Descricao VARCHAR(255),
 
-	IdCurso INT FOREIGN KEY REFERENCES Curso(Id)
+	IdCurso INT FOREIGN KEY REFERENCES Curso (Id)
 );
 
 -- Criando a tabela de Categoria
@@ -66,7 +66,7 @@ CREATE TABLE Usuario (
 	DataCadastro DateTime DEFAULT GETDATE(),
 	DataUltimoAcesso DateTime,
 	
-	IdPerfil INT FOREIGN KEY REFERENCES Perfil(Id)
+	IdPerfil INT FOREIGN KEY REFERENCES Perfil (Id)
 );
 
 -- Criando a tabela de Dica
@@ -96,7 +96,7 @@ CREATE TABLE AlunoTurma (
 );
 
 -- Criando a tabela de AlunoTurma
-CREATE TABLE ProfessorTurma (
+CREATE TABLE ProfessoreTurma (
 	Id INT PRIMARY KEY IDENTITY NOT NULL,
 	Matricula VARCHAR(50),
 

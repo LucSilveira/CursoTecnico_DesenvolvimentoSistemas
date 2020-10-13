@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onchange="Listar()">
+    <input type="text" id="fruta" placeholder="Informe o nome da fruta">
+
+    <button id="btnCadastrar" type="submit">Cadastrar</button>
+    <button id="btnRemover" type="submit">Remover</button>
+
+    <table>
+        <caption>Frutas</caption>
+        <thead>
+            <th>
+                Nome da fruta
+            </th>
+        </thead>
+        <tbody id="table-lista">
+
+        </tbody>
+    </table>
+
+    <script>
+        let frutas = ['maçã', 'uva', 'manga'];
+        let btnCadastrar = document.getElementById("btnCadastrar");
+        let btnRemover = document.getElementById("btnRemover");
+
+        function Listar(){
+            let corpoTabela = document.querySelector("#table-lista");
+
+            corpoTabela.innerHTML = "";
+            let linha, colunaNome;
+
+            frutas.forEach(item => {
+                linha =  document.createElement('tr');
+                colunaNome =  document.createElement('td');
+
+                colunaNome.innerHTML = item;
+                linha.appendChild(colunaNome);
+                corpoTabela.appendChild(linha);
+            });
+        };
+
+        btnCadastrar.addEventListener('click', function(event){
+            event.preventDefault();
+
+            let fruta = document.getElementById("fruta");
+
+            frutas.push(fruta.value);
+
+            Listar();
+            fruta.value = "";
+        });
+
+        btnRemover.addEventListener('click', function(event){
+            event.preventDefault();
+
+            let fruta = document.querySelector("#fruta");
+
+            let indexFruta = frutas.indexOf(fruta.value);
+
+            if(indexFruta > -1){
+                frutas.splice(indexFruta, 1);
+            
+            }else{
+
+                alert("Fruta não encontrada")
+            }
+
+            Listar();
+        });
+    </script>
+</body>
+</html>

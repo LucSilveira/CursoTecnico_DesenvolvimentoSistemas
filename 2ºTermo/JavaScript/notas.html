@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="formulario">
+        <input type="text" id="notaUm" name="notaUm">
+        <input type="text" class="notaDois" name="notaDois">
+        <button type="submit" class="calcular">Calcular a média</button>
+    </form>
+
+    <script>
+        let notaUm = document.getElementById("notaUm");
+        console.log(notaUm.value)
+
+        let notaDois = document.querySelector('.notaDois');
+        console.log(notaDois.value)
+
+        let btn = document.querySelector('.calcular');
+
+        btn.addEventListener("click", function(event){
+            //debugger; //para saber se está entrando na consicao do código e o processo que está resultando
+            //até o momento
+            event.preventDefault();
+
+            let media = (parseFloat(notaUm.value) + parseFloat(notaDois.value)) / 2;
+
+            console.log(media);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes</title>
+</head>
+<body onload="Listar()">
+    
+    <form id="form">
+        <input type="text" id="nome" placeholder="Nome do filme" required>
+        <input type="text" id="categoria" placeholder="Categoria" required>
+        <input type="text" id="ano" placeholder="Ano de lançamento" required>
+
+        <button type="button" id="btnCadastrar">Cadastrar</button>
+        <button type="button" id="btnRemover">Remover</button>
+        <button type="button" id="btnProcurar">Buscar</button>
+
+        <table>
+            <caption>Filmes</caption>
+            <thead>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Categoria</th>
+                <th>Ano Lançamento</th>
+            </thead>
+            <tbody id="tabela-lista-corpo"></tbody>
+        </table>
+    </form>
+
+</body>
+    <script>
+        let base_url = "https://5f863a54c8a16a0016e6ae19.mockapi.io/api/movies";
+        let movies = [];
+
+        // Criando o método de listar os movies
+        function Listar(){
+            let xhrGet = new XMLHttpRequest();
+
+            xhrGet.onload = listarSucesso;
+            xhrGet.onerror = listarErro;
+            xhrGet.open('GET', base_url);
+            xhrGet.send();
+        }
+
+        function listarSucesso(){
+            console.log(this.status);
+            console.log(JSON.parse(this.responseText));
+        }
+
+        function listarErro(erro){
+            console.log(erro);
+        }
+
+        // Criando o método de cadastro de movies
+        let btnCadastrar = document.getElementById('btnCadastrar');
+        btnCadastrar.addEventListener('click', function(event){
+            event.preventDefault();
+
+            let nome = document.querySelector('#nome');
+            let categoria = document.querySelector('#categoria');
+            let anoLancamento = document.querySelector('#ano');
+
+            let movie = {
+                nome : nome.value,
+                categoria : categoria.value,
+                ano : anoLancamento.value
+            }
+
+            let xhrPost = new XMLHttpRequest();
+            xhrPost.onload = cadastrarSucesso;
+            xhrPost.onerror = cadastrarErro;
+
+            xhrPost.open('POST', base_url);
+            xhrPost.setRequestHeader('content-type', 'application/json');
+            xhrPost.send(JSON.stringify(movie));
+        });
+
+        function cadastrarSucesso(){
+            console.log(this.status);
+            console.log(JSON.parse(this.responseText));
+
+            Listar();
+
+            nome.value = "";
+            categoria.value = "";
+            ano.value = "";
+            nome.focus();
+        }
+
+        function cadastrarErro(erro){
+            console.log(erro);
+        }
+
+        // Criando a função de remover um filme
+        let btnRemover = document.getElementById('btnRemover');
+        btnRemover.addEventListener('click', function(event){
+            event.preventDefault();
+
+            let idMovie = document.querySelector('#nome');
+
+            let xhrDelete = new XMLHttpRequest();
+            xhrDelete.onload = removerSucesso;
+            xhrDelete.onerror = removerErro;
+            xhrDelete.open('DELETE', base_url + '/' + idMovie.value);
+            xhrDelete.send();
+        });
+
+        function removerSucesso(){
+            console.log(this.status);
+            console.log(JSON.parse(this.responseText));
+
+            Listar();
+
+            nome.value = "";
+        }
+
+        function removerErro(erro){
+            console.log(erro);
+        }
+
+        // Criando a função de procurar um filme
+        let btnProcurar = document.getElementById('btnProcurar');
+        btnProcurar.addEventListener('click', function(event){
+            event.preventDefault();
+
+            let idMovie = document.querySelector('#nome');
+
+            let xhrGet = new XMLHttpRequest();
+            xhrGet.onload = procurarSucesso;
+            xhrGet.onerror = procurarErro;
+            xhrGet.open('GET', base_url + '/' + idMovie.value);
+            xhrGet.send();
+        });
+
+        function procurarSucesso(){
+            console.log(this.status);
+            console.log(JSON.parse(this.responseText));
+
+            nome.value = "";
+        }
+
+        function procurarErro(erro){
+            console.log(erro);
+        }
+    </script>
+</html>

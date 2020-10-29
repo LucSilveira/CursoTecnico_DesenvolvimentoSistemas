@@ -52,7 +52,8 @@ namespace Nyous.Controllers
             new Claim(JwtRegisteredClaimNames.NameId, userInfo.Nome),
             new Claim(JwtRegisteredClaimNames.Email, userInfo.Email),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-            new Claim(ClaimTypes.Role, userInfo.IdAcessoNavigation.Tipo)
+            new Claim(ClaimTypes.Role, userInfo.IdAcessoNavigation.Tipo),
+            new Claim("Role", userInfo.IdAcessoNavigation.Tipo)
     };
 
             // Configuramos nosso Token e seu tempo de vida

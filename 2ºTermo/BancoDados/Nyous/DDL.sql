@@ -57,7 +57,7 @@ CREATE TABLE Evento (
 	IdCategoria INT FOREIGN KEY REFERENCES Categoria (IdCategoria), /* Definir qual a categoria do evento */
 	IdLocalizacao INT FOREIGN KEY REFERENCES Localizacao (IdLocalizacao) /* Definindo qual a localizacao do evento */
 );
-
+select * from categoria
 -- Criando tabela de convites
 CREATE TABLE Convite (
 	IdConvite INT PRIMARY KEY IDENTITY NOT NULL,

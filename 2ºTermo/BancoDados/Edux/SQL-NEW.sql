@@ -47,6 +47,7 @@ CREATE TABLE Categoria (
 CREATE TABLE Objetivo (
 	Id INT PRIMARY KEY IDENTITY NOT NULL,
 	Descricao VARCHAR(255),
+	Titulo VARCHAR(100),
 
 	IdCategoria INT FOREIGN KEY REFERENCES Categoria (Id)
 );
@@ -54,7 +55,7 @@ CREATE TABLE Objetivo (
 -- Criando a tabela de Perfil
 CREATE TABLE Perfil (
 	Id INT PRIMARY KEY IDENTITY NOT NULL,
-	Permissao VARCHAR(10)
+	Permissao VARCHAR(15)
 );
 
 -- Criando a tabela de Usuario
@@ -63,12 +64,13 @@ CREATE TABLE Usuario (
 	Nome VARCHAR(255),
 	Email VARCHAR(100),
 	Senha VARCHAR(255),
+	Imagem VARCHAR(255),
 	DataCadastro DateTime DEFAULT GETDATE(),
 	DataUltimoAcesso DateTime,
 	
 	IdPerfil INT FOREIGN KEY REFERENCES Perfil (Id)
 );
-
+select * from usuario;
 -- Criando a tabela de Dica
 CREATE TABLE Dica (
 	Id INT PRIMARY KEY IDENTITY NOT NULL,
@@ -96,7 +98,7 @@ CREATE TABLE AlunoTurma (
 );
 
 -- Criando a tabela de AlunoTurma
-CREATE TABLE ProfessoreTurma (
+CREATE TABLE ProfessorTurma (
 	Id INT PRIMARY KEY IDENTITY NOT NULL,
 	Matricula VARCHAR(50),
 

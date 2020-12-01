@@ -70,7 +70,7 @@ CREATE TABLE Usuario (
 	
 	IdPerfil INT FOREIGN KEY REFERENCES Perfil (Id)
 );
-select * from usuario;
+
 -- Criando a tabela de Dica
 CREATE TABLE Dica (
 	Id INT PRIMARY KEY IDENTITY NOT NULL,
@@ -115,3 +115,15 @@ CREATE TABLE ObjetivoAluno (
 	IdAlunoTurma INT FOREIGN KEY REFERENCES AlunoTurma (Id),
 	IdObjetivo INT FOREIGN KEY REFERENCES Objetivo (Id)
 );
+
+INSERT INTO Instituicao(Nome, Logradouro, Numero, Complemento, Bairro, Cidade, UF, CEP) VALUES
+	('Escola SENAI de Informática', 'Rua Barão de Limeira', 539, 'Edificio 01', 'Santa Cecilia', 'São Paulo', 'SP', '01202-001');
+
+INSERT INTO Categoria(Tipo) VALUES
+	('Crítico'), ('Desejável'), ('Oculto');
+
+INSERT INTO Perfil(Permissao) VALUES 
+	('Professor'), ('Aluno'), ('Administrador');
+
+INSERT INTO Usuario(Nome, Email, Senha, Imagem, IdPerfil) VALUES
+	('Administrador do sistema', 'admin@email.com', 'admin123', 'padrao.jpg', 3);

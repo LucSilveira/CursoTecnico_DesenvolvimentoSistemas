@@ -1,0 +1,14 @@
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Infra.Data\obj\Debug\netcoreapp3.1\DoLink.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Infra.Data\obj\Debug\netcoreapp3.1\DoLink.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Infra.Data\obj\Debug\netcoreapp3.1\DoLink.Infra.Data.AssemblyInfo.cs
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Infra.Data\obj\Debug\netcoreapp3.1\DoLink.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Infra.Data\bin\Debug\netcoreapp3.1\DoLink.Infra.Data.deps.json
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Infra.Data\bin\Debug\netcoreapp3.1\DoLink.Infra.Data.dll
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Infra.Data\bin\Debug\netcoreapp3.1\DoLink.Infra.Data.pdb
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Infra.Data\bin\Debug\netcoreapp3.1\DoLink.Comum.dll
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Infra.Data\bin\Debug\netcoreapp3.1\DoLink.Dominio.dll
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Infra.Data\bin\Debug\netcoreapp3.1\DoLink.Comum.pdb
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Infra.Data\bin\Debug\netcoreapp3.1\DoLink.Dominio.pdb
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Infra.Data\obj\Debug\netcoreapp3.1\DoLink.Infra.Data.csproj.CopyComplete
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Infra.Data\obj\Debug\netcoreapp3.1\DoLink.Infra.Data.dll
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Infra.Data\obj\Debug\netcoreapp3.1\DoLink.Infra.Data.pdb

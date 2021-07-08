@@ -1,0 +1,28 @@
+Autocorrect typos, check for matching terms, PII, and classify.
+{
+  "OriginalText": "moderation",
+  "NormalizedText": "moderation",
+  "AutoCorrectedText": "moderation",
+  "Misrepresentation": null,
+  "Classification": {
+    "Category1": {
+      "Score": 0.05495771765708923
+    },
+    "Category2": {
+      "Score": 0.2296631783246994
+    },
+    "Category3": {
+      "Score": 0.12146725505590439
+    },
+    "ReviewRecommended": false
+  },
+  "Status": {
+    "Code": 3000,
+    "Description": "OK",
+    "Exception": null
+  },
+  "PII": null,
+  "Language": "eng",
+  "Terms": null,
+  "TrackingId": "0653bf2b-161c-4ef2-9111-a429aba472bd"
+}

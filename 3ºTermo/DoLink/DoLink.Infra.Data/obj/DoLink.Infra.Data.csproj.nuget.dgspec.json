@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Infra.Data\\DoLink.Infra.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Comum\\DoLink.Comum.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Comum\\DoLink.Comum.csproj",
+        "projectName": "DoLink.Comum",
+        "projectPath": "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Comum\\DoLink.Comum.csproj",
+        "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Comum\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "BCrypt.Net-Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            },
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Flunt.Br": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Azure.CognitiveServices.ContentModerator": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Dominio\\DoLink.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Dominio\\DoLink.Dominio.csproj",
+        "projectName": "DoLink.Dominio",
+        "projectPath": "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Dominio\\DoLink.Dominio.csproj",
+        "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Comum\\DoLink.Comum.csproj": {
+                "projectPath": "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Comum\\DoLink.Comum.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Flunt.Br": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Infra.Data\\DoLink.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Infra.Data\\DoLink.Infra.Data.csproj",
+        "projectName": "DoLink.Infra.Data",
+        "projectPath": "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Infra.Data\\DoLink.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Comum\\DoLink.Comum.csproj": {
+                "projectPath": "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Comum\\DoLink.Comum.csproj"
+              },
+              "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Dominio\\DoLink.Dominio.csproj": {
+                "projectPath": "C:\\Users\\fic\\Desktop\\LucasFiles\\DoLink\\DoLink_API\\DoLink\\DoLink.Dominio\\DoLink.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

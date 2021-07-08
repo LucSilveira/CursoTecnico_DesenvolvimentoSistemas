@@ -1,0 +1,12 @@
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Dominio\bin\Release\netcoreapp3.1\DoLink.Dominio.deps.json
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Dominio\bin\Release\netcoreapp3.1\DoLink.Dominio.dll
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Dominio\bin\Release\netcoreapp3.1\DoLink.Dominio.pdb
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Dominio\bin\Release\netcoreapp3.1\DoLink.Comum.dll
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Dominio\bin\Release\netcoreapp3.1\DoLink.Comum.pdb
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Dominio\obj\Release\netcoreapp3.1\DoLink.Dominio.csproj.AssemblyReference.cache
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Dominio\obj\Release\netcoreapp3.1\DoLink.Dominio.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Dominio\obj\Release\netcoreapp3.1\DoLink.Dominio.AssemblyInfo.cs
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Dominio\obj\Release\netcoreapp3.1\DoLink.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Dominio\obj\Release\netcoreapp3.1\DoLink.Dominio.csproj.CopyComplete
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Dominio\obj\Release\netcoreapp3.1\DoLink.Dominio.dll
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Dominio\obj\Release\netcoreapp3.1\DoLink.Dominio.pdb

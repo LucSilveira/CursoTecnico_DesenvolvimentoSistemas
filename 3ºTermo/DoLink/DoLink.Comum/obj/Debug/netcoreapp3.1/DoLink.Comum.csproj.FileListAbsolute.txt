@@ -1,0 +1,9 @@
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Comum\bin\Debug\netcoreapp3.1\DoLink.Comum.deps.json
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Comum\bin\Debug\netcoreapp3.1\DoLink.Comum.dll
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Comum\bin\Debug\netcoreapp3.1\DoLink.Comum.pdb
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Comum\obj\Debug\netcoreapp3.1\DoLink.Comum.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Comum\obj\Debug\netcoreapp3.1\DoLink.Comum.AssemblyInfo.cs
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Comum\obj\Debug\netcoreapp3.1\DoLink.Comum.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Comum\obj\Debug\netcoreapp3.1\DoLink.Comum.dll
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Comum\obj\Debug\netcoreapp3.1\DoLink.Comum.pdb
+C:\Users\fic\Desktop\LucasFiles\DoLink\DoLink_API\DoLink\DoLink.Comum\obj\Debug\netcoreapp3.1\DoLink.Comum.csproj.AssemblyReference.cache

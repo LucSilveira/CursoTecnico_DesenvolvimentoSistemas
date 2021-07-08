@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DoLink.Api</name>
+    </assembly>
+    <members>
+        <member name="M:DoLink.Api.Controllers.ContaController.SearchEmail(DoLink.Dominio.Handles.Queries.Conta.BuscarEmailHandler,System.String)">
+            <summary>
+            Método para procurar um usuário por email
+            </summary>
+            <returns>Dados do usuário com o email</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.ContaController.SignIn(DoLink.Dominio.Commands.Conta.LogarCommand,DoLink.Dominio.Handles.Commands.Conta.LogarHandler)">
+            <summary>
+            Método para criar a autenticação do sistema
+            </summary>
+            <param name="command">Dados a serem processados</param>
+            <param name="handle">Processos que serão realizados</param>
+            <returns>Código para autenticação</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.ContaController.ResetPassword(DoLink.Dominio.Commands.Conta.EsqueciMinhaSenhaCommand,DoLink.Dominio.Handles.Commands.Conta.EsqueciMinhaSenhaHandler)">
+            <summary>
+            Método para resetar a senha
+            </summary>
+            <param name="command">Dados para localizar o usuário</param>
+            <param name="handle">Processamento para confecção de uma nova senha</param>
+            <returns>Dados a cerca da senha gerada</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.ContaController.UpdatePassword(DoLink.Dominio.Handles.Commands.Conta.AlterarSenhaCommand,DoLink.Dominio.Handles.Commands.Conta.AlterarSenhaHandler)">
+            <summary>
+            Método para alterar a senha dos usuários
+            </summary>
+            <param name="command">Dados para localizar e alterar o usuário</param>
+            <param name="handle">Processamento para alteração da senha</param>
+            <returns>Usuário com dados alterados</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.EmpresaController.ListAllCompany(DoLink.Dominio.Handles.Queries.Empresas.ListarEmpresaHandler)">
+            <summary>
+            Método para listar todas as empresas cadastradas na aplicação
+            </summary>
+            <returns>Lista com todas as empresas do sistema</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.EmpresaController.ListVagancy(DoLink.Dominio.Handles.Queries.Vagas.ListarVagaEmpresaHandler,System.String)">
+            <summary>
+            Método para listas as vagas de acordo com a empresa
+            </summary>
+            <returns>Lista com as vagas de uma empresa</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.EmpresaController.GetByCnpj(DoLink.Dominio.Handles.Queries.Empresas.BuscarEmpresaHandler,System.String)">
+            <summary>
+            Método para buscar os dados de uma empresa específica
+            </summary>
+            <param name="handle">Parametros para buscar uma empresa</param>
+            <param name="empresa">Processos para realizar a busca da empresa</param>
+            <returns>Dados da empresa procurada</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.EmpresaController.GetById(DoLink.Dominio.Handles.Queries.Empresas.BuscarEmpresaHandler,System.String)">
+            <summary>
+            Método para buscar os dados de uma empresa específica
+            </summary>
+            <param name="handle">Parametros para buscar uma empresa</param>
+            <param name="empresa">Processos para realizar a busca da empresa</param>
+            <returns>Dados da empresa procurada</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.EmpresaController.SignUpCompany(DoLink.Dominio.Commands.Empresa.CadastrarEmpresaCommand,DoLink.Dominio.Handles.Commands.CadastrarEmpresaHandler)">
+            <summary>
+            Método que Cadastra uma nova empresa na aplicação.
+            </summary>
+            <param name="command">Dados a serem processados</param>
+            <param name="handle">Processos a serem realizados para o cadastro de empresa</param>
+            <returns>Dados da empresa cadastrada</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.EmpresaController.UpdateCompany(DoLink.Dominio.Commands.Empresa.AlterarEmpresaCommand,DoLink.Dominio.Handles.Commands.AlterarEmpresaHandler)">
+            <summary>
+            Método para alterar os dados de uma empresa cadastrada
+            </summary>
+            <param name="command">Dados a serem alterados</param>
+            <param name="handle">Processos para alterar os dados da empresa</param>
+            <returns>Empresa com os dados alterados</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.EmpresaController.UpdateCpnj(DoLink.Dominio.Commands.Empresas.AlterarCnpjCommand,DoLink.Dominio.Handles.Commands.Empresas.AlterarCnpjHandler)">
+            <summary>
+            Método para alterar o cnpj da empresa
+            </summary>
+            <param name="command">Cnpj a ser alterado</param>
+            <param name="handle">Processos para alterar os dados da empresa</param>
+            <returns>Empresa com os dados alterados</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.EmpresaController.UpdateDescricao(DoLink.Dominio.Commands.Empresas.AlterarDescricaoEmpresaCommand,DoLink.Dominio.Handles.Commands.Empresas.AlterarDescricaoEmpresaHandler)">
+            <summary>
+            Método para alterar a descrição da empresa
+            </summary>
+            <param name="command">Nova descrição informada</param>
+            <param name="handle">Processos para alterar os dados da empresa</param>
+            <returns>Empresa com a descrição alterada</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.EmpresaController.Delete(DoLink.Dominio.Commands.Empresa.ExcluirEmpresaCommand,DoLink.Dominio.Handles.Commands.ExcluirEmpresaHandler)">
+            <summary>
+            Método para deletar uma empresa existente
+            </summary>
+            <param name="command">Dados para localizar uma empresa</param>
+            <param name="handle">Processo para deletar uma empresa</param>
+            <returns>Dados da empresa deletada</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.ProfissionalController.ListProfisseonal(DoLink.Dominio.Handles.Queries.Profissionais.ListarProfissionaisHandler)">
+            <summary>
+            Método para listar os profissionais cadastrados
+            </summary>
+            <returns>Lista com todos os profissionais</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.ProfissionalController.GetSpecificCpf(DoLink.Dominio.Handles.Queries.Profissionais.BuscarProfissionalHandler,System.String)">
+            <summary>
+            Método para buscar um profissional existente
+            </summary>
+            <param name="command">Dados para a busca de um profissional</param>
+            <param name="handle">Tratativa dos dados para localização do mesmo</param>
+            <returns>Dados a cerca do profissional procurado</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.ProfissionalController.GetSpecificId(DoLink.Dominio.Handles.Queries.Profissionais.BuscarProfissionalHandler,System.String)">
+            <summary>
+            Método para buscar um profissional por meio do seu id
+            </summary>
+            <param name="professional">código de identificação do profissional</param>
+            <returns>dados a cerca do profissional</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.ProfissionalController.CrateSkill(DoLink.Dominio.Commands.Profissionais.CadastrarProfissionalCommand,DoLink.Dominio.Handles.Commands.Profissionais.CadastrarProfissionalHandler)">
+            <summary>
+            Método que Cadastra um novo profissional na aplicação.
+            </summary>
+            <param name="command">Dados para criação do profissional</param>
+            <param name="handle">Tratativa dos dados para criação do mesmo</param>
+            <returns>Dados acerca do profissional</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.ProfissionalController.UpdateAccount(DoLink.Dominio.Commands.Profissionais.AlterarProfissionalCommand,DoLink.Dominio.Handles.Commands.Profissionais.AlterarProfissionalHandler)">
+            <summary>
+            Método que altera um profissional cadastrado
+            </summary>
+            <param name="command">Dados para alteração do profissional</param>
+            <param name="handle">Tratativa dos dados para alteração do mesmo</param>
+            <returns>Dados acerca do profissional alterado</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.ProfissionalController.UpdateAccountGeneral(DoLink.Dominio.Commands.Profissionais.AlterarProfissionalMobileCommand,DoLink.Dominio.Handles.Commands.Profissionais.AlterarProfissionalMobileHandler)">
+            <summary>
+            Método que altera um profissional cadastrado por mobile
+            </summary>
+            <param name="command">Dados para alteração do profissional</param>
+            <param name="handle">Tratativa dos dados para alteração do mesmo</param>
+            <returns>Dados acerca do profissional alterado</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.ProfissionalController.UpdateCpf(DoLink.Dominio.Commands.Profissionais.AlterarCpfProfissionalCommand,DoLink.Dominio.Handles.Commands.Profissionais.AlterarCpfProfissionalHandler)">
+            <summary>
+            Método parar alterar o cpf de um profissional
+            </summary>
+            <param name="command">Dados a serem processados (cpf)</param>
+            <param name="handle">Processos de tratamento para alteração do cpf</param>
+            <returns>Dados do profissional com o cpf alterado</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.ProfissionalController.UpdateSkills(DoLink.Dominio.Commands.Profissionais.AlterarSkillsProfissionalCommand,DoLink.Dominio.Handles.Commands.Profissionais.AlterarSkillsProfissionalHandler)">
+            <summary>
+            Método para alterar as skills de um profissional
+            </summary>
+            <param name="command">Dados a cerca das skills alteradas</param>
+            <param name="handle">Processos para alterar as skills de um profissional</param>
+            <returns>Dados a cerca das skills alteradas de um profissional</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.ProfissionalController.RemoveAccount(DoLink.Dominio.Handles.Commands.Profissionais.ExcluirProfissionalCommand,DoLink.Dominio.Handles.Commands.Profissionais.ExcluirProfissionalHandler)">
+            <summary>
+            Método que excluir um profissional na aplicação.
+            </summary>
+            <param name="command">Dados para exclusão do profissional</param>
+            <param name="handle">Tratativa dos dados para exclusão do mesmo</param>
+            <returns>Dados acerca do profissional excluido</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.SkillController.ListAllSkills(DoLink.Dominio.Handles.Commands.Skills.ListarSkillHandler)">
+            <summary>
+            Método para listar as skills existente
+            </summary>
+            <param name="command">Dados para a listagem de uma skill</param>
+            <param name="handle">Tratativa dos dados para listagem do mesmo</param>
+            <returns>Listas cerca das skills</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.SkillController.GetSpecific(DoLink.Dominio.Handles.Queries.Skills.BuscarSkillHandler,System.String)">
+            <summary>
+            Método para buscar uma skill existente
+            </summary>
+            <param name="command">Dados para a busca de uma skill</param>
+            <param name="handle">Tratativa dos dados para localização do mesmo</param>
+            <returns>Dados a cerca da skill procurada</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.SkillController.GetSpecificById(DoLink.Dominio.Handles.Queries.Skills.BuscarSkillPorIdHandler,System.String)">
+            <summary>
+            Método para buscar uma skill existente
+            </summary>
+            <param name="command">Dados para a busca de uma skill</param>
+            <param name="handle">Tratativa dos dados para localização do mesmo</param>
+            <returns>Dados a cerca da skill procurada</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.SkillController.CrateSkill(DoLink.Dominio.Commands.Skill.CadastrarSkillCommand,DoLink.Dominio.Handles.Commands.Skills.CadastrarSkillHandler)">
+            <summary>
+            Método que Cadastra uma nova skill na aplicação.
+            </summary>
+            <param name="command">Dados para criação da skill</param>
+            <param name="handle">Tratativa dos dados para criação do mesmo</param>
+            <returns>Dados acerca da skill</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.SkillController.UpdateSkill(DoLink.Dominio.Commands.Skills.AlterarSkillCommand,DoLink.Dominio.Handles.Commands.Skills.AlterarSkillHandler)">
+            <summary>
+            Método para alterar uma skill existente
+            </summary>
+            <param name="command">Dados para a alteração de uma skill</param>
+            <param name="handle">Tratativa dos dados para alteração do mesmo</param>
+            <returns>Dados a cerca da skill alterada</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.SkillController.RemoveSkill(DoLink.Dominio.Commands.Skill.ExcluirSkillCommand,DoLink.Dominio.Commands.Skill.ExcluirSkillHandler)">
+            <summary>
+            Método para excluir uma skill existente
+            </summary>
+            <param name="command">Dados para a exclusão de uma skill</param>
+            <param name="handle">Tratativa dos dados para exclusão do mesmo</param>
+            <returns>Dados a cerca da skill excluida</returns>
+        </member>
+        <member name="M:DoLink.Api.Controllers.VagaController.ListAllVagas(DoLink.Dominio.Handles.Queries.Vagas.ListarVagaHandler)">
+            <summary>
+            Método para listar todas as vagas cadastradas no sistema
+            </summary>
+            <returns>Lista com as vagas cadastradas</returns>
+        </member>
+    </members>
+</doc>
